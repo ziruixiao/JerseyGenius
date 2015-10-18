@@ -1,0 +1,1759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC00278715DA0C8700591BB1 /* Steve Nash.png in Resources */ = {isa = PBXBuildFile; fileRef = DC00278615DA0C8700591BB1 /* Steve Nash.png */; };
+		DC00278915DA0CA100591BB1 /* Andre Iguodala.png in Resources */ = {isa = PBXBuildFile; fileRef = DC00278815DA0CA100591BB1 /* Andre Iguodala.png */; };
+		DC00279215DA304200591BB1 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = DC00279115DA304200591BB1 /* Player.m */; };
+		DC05B11815DB74F400CB8D86 /* mainImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC05B11715DB74F400CB8D86 /* mainImage@2x.png */; };
+		DC05B11B15DB7E0100CB8D86 /* percentBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC05B11A15DB7E0100CB8D86 /* percentBackground@2x.png */; };
+		DC05B11D15DB7E3200CB8D86 /* percentBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = DC05B11C15DB7E3200CB8D86 /* percentBackground.png */; };
+		DC05B12615DB941700CB8D86 /* hintsBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = DC05B12215DB941700CB8D86 /* hintsBackground.png */; };
+		DC05B12715DB941700CB8D86 /* hintsBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC05B12315DB941700CB8D86 /* hintsBackground@2x.png */; };
+		DC05B12815DB941700CB8D86 /* pointsBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = DC05B12415DB941700CB8D86 /* pointsBackground.png */; };
+		DC05B12915DB941700CB8D86 /* pointsBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC05B12515DB941700CB8D86 /* pointsBackground@2x.png */; };
+		DC05B12D15DB995C00CB8D86 /* topbarName.png in Resources */ = {isa = PBXBuildFile; fileRef = DC05B12B15DB995C00CB8D86 /* topbarName.png */; };
+		DC05B12E15DB995C00CB8D86 /* topbarName@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC05B12C15DB995C00CB8D86 /* topbarName@2x.png */; };
+		DC06D33D15DE14C5003AE31A /* ScrollingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC06D33C15DE14C5003AE31A /* ScrollingAppDelegate.m */; };
+		DC06D33E15DE14C5003AE31A /* ScrollingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC06D33C15DE14C5003AE31A /* ScrollingAppDelegate.m */; };
+		DC0FD7C5160B906B00610D76 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC84BC95160815110055B21C /* MediaPlayer.framework */; };
+		DC2EAFD815D37C8500B293ED /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2EAFD715D37C8500B293ED /* MenuViewController.m */; };
+		DC319147160C411C001C8333 /* 3NFL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319145160C411C001C8333 /* 3NFL@2x.png */; };
+		DC319148160C411C001C8333 /* 4NFL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319146160C411C001C8333 /* 4NFL@2x.png */; };
+		DC319188160C412A001C8333 /* Aaron Hernandez.png in Resources */ = {isa = PBXBuildFile; fileRef = DC31914B160C412A001C8333 /* Aaron Hernandez.png */; };
+		DC319189160C412A001C8333 /* Antonio Gates.png in Resources */ = {isa = PBXBuildFile; fileRef = DC31914C160C412A001C8333 /* Antonio Gates.png */; };
+		DC31918A160C412A001C8333 /* Brian Cushing.png in Resources */ = {isa = PBXBuildFile; fileRef = DC31914D160C412A001C8333 /* Brian Cushing.png */; };
+		DC31918B160C412A001C8333 /* Chris Johnson.png in Resources */ = {isa = PBXBuildFile; fileRef = DC31914E160C412A001C8333 /* Chris Johnson.png */; };
+		DC31918C160C412A001C8333 /* Darren Sproles.png in Resources */ = {isa = PBXBuildFile; fileRef = DC31914F160C412A001C8333 /* Darren Sproles.png */; };
+		DC31918D160C412A001C8333 /* DeMarco Murray.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319150160C412A001C8333 /* DeMarco Murray.png */; };
+		DC31918E160C412A001C8333 /* Dwayne Bowe.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319151160C412A001C8333 /* Dwayne Bowe.png */; };
+		DC31918F160C412A001C8333 /* Ed Reed.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319152160C412A001C8333 /* Ed Reed.png */; };
+		DC319190160C412A001C8333 /* Hakeem Nicks.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319153160C412A001C8333 /* Hakeem Nicks.png */; };
+		DC319191160C412A001C8333 /* Jamaal Charles.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319154160C412A001C8333 /* Jamaal Charles.png */; };
+		DC319192160C412A001C8333 /* Jared Allen.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319155160C412A001C8333 /* Jared Allen.png */; };
+		DC319193160C412A001C8333 /* Jay Cutler.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319156160C412A001C8333 /* Jay Cutler.png */; };
+		DC319194160C412A001C8333 /* Joe Flacco.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319157160C412A001C8333 /* Joe Flacco.png */; };
+		DC319195160C412A001C8333 /* Jordy Nelson.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319158160C412A001C8333 /* Jordy Nelson.png */; };
+		DC319196160C412A001C8333 /* Julio Jones.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319159160C412A001C8333 /* Julio Jones.png */; };
+		DC319197160C412A001C8333 /* Justin Tuck.png in Resources */ = {isa = PBXBuildFile; fileRef = DC31915A160C412A001C8333 /* Justin Tuck.png */; };
+		DC319198160C412A001C8333 /* London Fletcher.png in Resources */ = {isa = PBXBuildFile; fileRef = DC31915B160C412A001C8333 /* London Fletcher.png */; };
+		DC319199160C412A001C8333 /* Mark Sanchez.png in Resources */ = {isa = PBXBuildFile; fileRef = DC31915C160C412A001C8333 /* Mark Sanchez.png */; };
+		DC31919A160C412A001C8333 /* Matt Ryan.png in Resources */ = {isa = PBXBuildFile; fileRef = DC31915D160C412A001C8333 /* Matt Ryan.png */; };
+		DC31919B160C412A001C8333 /* Matt Schaub.png in Resources */ = {isa = PBXBuildFile; fileRef = DC31915E160C412A001C8333 /* Matt Schaub.png */; };
+		DC31919C160C412A001C8333 /* Matthew Stafford.png in Resources */ = {isa = PBXBuildFile; fileRef = DC31915F160C412A001C8333 /* Matthew Stafford.png */; };
+		DC31919D160C412A001C8333 /* Nnamdi Asomugha.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319160160C412A001C8333 /* Nnamdi Asomugha.png */; };
+		DC31919E160C412A001C8333 /* Peyton Hillis.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319161160C412A001C8333 /* Peyton Hillis.png */; };
+		DC31919F160C412A001C8333 /* Randy Moss.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319162160C412A001C8333 /* Randy Moss.png */; };
+		DC3191A0160C412A001C8333 /* Reggie Bush.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319163160C412A001C8333 /* Reggie Bush.png */; };
+		DC3191A1160C412A001C8333 /* Reggie Wayne.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319164160C412A001C8333 /* Reggie Wayne.png */; };
+		DC3191A2160C412A001C8333 /* Steve Johnson.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319165160C412A001C8333 /* Steve Johnson.png */; };
+		DC3191A3160C412A001C8333 /* Steven Jackson.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319166160C412A001C8333 /* Steven Jackson.png */; };
+		DC3191A4160C412A001C8333 /* Trent Richardson.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319167160C412A001C8333 /* Trent Richardson.png */; };
+		DC3191A5160C412A001C8333 /* Vincent Jackson.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319168160C412A001C8333 /* Vincent Jackson.png */; };
+		DC3191A6160C412A001C8333 /* Alex Smith.png in Resources */ = {isa = PBXBuildFile; fileRef = DC31916A160C412A001C8333 /* Alex Smith.png */; };
+		DC3191A7160C412A001C8333 /* Andy Dalton.png in Resources */ = {isa = PBXBuildFile; fileRef = DC31916B160C412A001C8333 /* Andy Dalton.png */; };
+		DC3191A8160C412A001C8333 /* Anquan Boldin.png in Resources */ = {isa = PBXBuildFile; fileRef = DC31916C160C412A001C8333 /* Anquan Boldin.png */; };
+		DC3191A9160C412A001C8333 /* Antonio Brown.png in Resources */ = {isa = PBXBuildFile; fileRef = DC31916D160C412A001C8333 /* Antonio Brown.png */; };
+		DC3191AA160C412A001C8333 /* Bernard Pollard.png in Resources */ = {isa = PBXBuildFile; fileRef = DC31916E160C412A001C8333 /* Bernard Pollard.png */; };
+		DC3191AB160C412A001C8333 /* Brandon Lloyd.png in Resources */ = {isa = PBXBuildFile; fileRef = DC31916F160C412A001C8333 /* Brandon Lloyd.png */; };
+		DC3191AC160C412A001C8333 /* Brandon Weeden.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319170160C412A001C8333 /* Brandon Weeden.png */; };
+		DC3191AD160C412A001C8333 /* Brian Orakpo.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319171160C412A001C8333 /* Brian Orakpo.png */; };
+		DC3191AE160C412A001C8333 /* Cameron Wake.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319172160C412A001C8333 /* Cameron Wake.png */; };
+		DC3191AF160C412A001C8333 /* Carson Palmer.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319173160C412A001C8333 /* Carson Palmer.png */; };
+		DC3191B0160C412A001C8333 /* Earl Thomas.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319174160C412A001C8333 /* Earl Thomas.png */; };
+		DC3191B1160C412A001C8333 /* Eric Berry.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319175160C412A001C8333 /* Eric Berry.png */; };
+		DC3191B2160C412A001C8333 /* Eric Decker.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319176160C412A001C8333 /* Eric Decker.png */; };
+		DC3191B3160C412A001C8333 /* Fred Jackson.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319177160C412A001C8333 /* Fred Jackson.png */; };
+		DC3191B4160C412A001C8333 /* Haloti Ngata.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319178160C412A001C8333 /* Haloti Ngata.png */; };
+		DC3191B5160C412A001C8333 /* Ike Taylor.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319179160C412A001C8333 /* Ike Taylor.png */; };
+		DC3191B6160C412A001C8333 /* J. J. Watt.png in Resources */ = {isa = PBXBuildFile; fileRef = DC31917A160C412A001C8333 /* J. J. Watt.png */; };
+		DC3191B7160C412A001C8333 /* Jason Witten.png in Resources */ = {isa = PBXBuildFile; fileRef = DC31917B160C412A001C8333 /* Jason Witten.png */; };
+		DC3191B8160C412A001C8333 /* Jeremy Maclin.png in Resources */ = {isa = PBXBuildFile; fileRef = DC31917C160C412A001C8333 /* Jeremy Maclin.png */; };
+		DC3191B9160C412A001C8333 /* Johnathan Joseph.png in Resources */ = {isa = PBXBuildFile; fileRef = DC31917D160C412A001C8333 /* Johnathan Joseph.png */; };
+		DC3191BA160C412A001C8333 /* Mark Barron.png in Resources */ = {isa = PBXBuildFile; fileRef = DC31917E160C412A001C8333 /* Mark Barron.png */; };
+		DC3191BB160C412A001C8333 /* Marques Colston.png in Resources */ = {isa = PBXBuildFile; fileRef = DC31917F160C412A001C8333 /* Marques Colston.png */; };
+		DC3191BC160C412A001C8333 /* Michael Turner.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319180160C412A001C8333 /* Michael Turner.png */; };
+		DC3191BD160C412A001C8333 /* Percy Harvin.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319181160C412A001C8333 /* Percy Harvin.png */; };
+		DC3191BE160C412A001C8333 /* Ryan Fitzpatrick.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319182160C412A001C8333 /* Ryan Fitzpatrick.png */; };
+		DC3191BF160C412A001C8333 /* Ryan Tannehill.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319183160C412A001C8333 /* Ryan Tannehill.png */; };
+		DC3191C0160C412A001C8333 /* Sam Bradford.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319184160C412A001C8333 /* Sam Bradford.png */; };
+		DC3191C1160C412A001C8333 /* Santonio Holmes.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319185160C412A001C8333 /* Santonio Holmes.png */; };
+		DC3191C2160C412A001C8333 /* Vernon Davis.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319186160C412A001C8333 /* Vernon Davis.png */; };
+		DC3191C3160C412A001C8333 /* Vince Wilfork.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319187160C412A001C8333 /* Vince Wilfork.png */; };
+		DC319D7215DC8E8800E4FD65 /* MTMiniPopupWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DC319D6F15DC8E8800E4FD65 /* MTMiniPopupWindow.m */; };
+		DC319D7315DC8E8800E4FD65 /* MTMiniPopupWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DC319D6F15DC8E8800E4FD65 /* MTMiniPopupWindow.m */; };
+		DC319D7415DC8E8800E4FD65 /* popupWindowBackSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319D7015DC8E8800E4FD65 /* popupWindowBackSmall.png */; };
+		DC319D7515DC8E8800E4FD65 /* popupWindowBackSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319D7015DC8E8800E4FD65 /* popupWindowBackSmall.png */; };
+		DC319D7615DC8E8800E4FD65 /* popupWindowBackSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319D7115DC8E8800E4FD65 /* popupWindowBackSmall@2x.png */; };
+		DC319D7715DC8E8800E4FD65 /* popupWindowBackSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319D7115DC8E8800E4FD65 /* popupWindowBackSmall@2x.png */; };
+		DC319D7B15DC966F00E4FD65 /* backtogame.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319D7915DC966F00E4FD65 /* backtogame.png */; };
+		DC319D7C15DC966F00E4FD65 /* backtogame.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319D7915DC966F00E4FD65 /* backtogame.png */; };
+		DC319D7D15DC966F00E4FD65 /* backtogame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319D7A15DC966F00E4FD65 /* backtogame@2x.png */; };
+		DC319D7E15DC966F00E4FD65 /* backtogame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC319D7A15DC966F00E4FD65 /* backtogame@2x.png */; };
+		DC38967715DB6043002E7EA6 /* blank.png in Resources */ = {isa = PBXBuildFile; fileRef = DC38967615DB6043002E7EA6 /* blank.png */; };
+		DC38967915DB60B9002E7EA6 /* blank@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC38967815DB60B9002E7EA6 /* blank@2x.png */; };
+		DC3EEE0715DB2173002AD326 /* topbar.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3EEE0515DB2173002AD326 /* topbar.png */; };
+		DC3EEE0815DB2173002AD326 /* topbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3EEE0615DB2173002AD326 /* topbar@2x.png */; };
+		DC3EEE1015DB3328002AD326 /* sportsbg.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3EEE0E15DB3328002AD326 /* sportsbg.png */; };
+		DC3EEE1115DB3328002AD326 /* sportsbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3EEE0F15DB3328002AD326 /* sportsbg@2x.png */; };
+		DC3EEE1F15DB4C3E002AD326 /* 1NBA@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3EEE1B15DB4C3E002AD326 /* 1NBA@2x.png */; };
+		DC3EEE2015DB4C3E002AD326 /* 1NFL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3EEE1C15DB4C3E002AD326 /* 1NFL@2x.png */; };
+		DC3EEE2115DB4C3E002AD326 /* 2NBA@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3EEE1D15DB4C3E002AD326 /* 2NBA@2x.png */; };
+		DC3EEE2215DB4C3E002AD326 /* 2NFL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3EEE1E15DB4C3E002AD326 /* 2NFL@2x.png */; };
+		DC4F4A741600019700452273 /* Soon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC4F4A731600019700452273 /* Soon@2x.png */; };
+		DC4F4A7B160017BE00452273 /* 57_57.png in Resources */ = {isa = PBXBuildFile; fileRef = DC4F4A7A160017BE00452273 /* 57_57.png */; };
+		DC4F4A7E160017C100452273 /* 114_114.png in Resources */ = {isa = PBXBuildFile; fileRef = DC4F4A7D160017C100452273 /* 114_114.png */; };
+		DC4F4A811600283D00452273 /* question.png in Resources */ = {isa = PBXBuildFile; fileRef = DC4F4A7F1600283D00452273 /* question.png */; };
+		DC4F4A821600283D00452273 /* question@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC4F4A801600283D00452273 /* question@2x.png */; };
+		DC4F4A8816002DC100452273 /* MTBlankPopupWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4F4A8716002DC100452273 /* MTBlankPopupWindow.m */; };
+		DC4F4A96160036AE00452273 /* popupTips@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC4F4A95160036AE00452273 /* popupTips@2x.png */; };
+		DC53000215BA317C007B5EC9 /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = DC53000115BA317C007B5EC9 /* Level.m */; };
+		DC53000B15BA4E3C007B5EC9 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DC53000A15BA4E3C007B5EC9 /* libsqlite3.dylib */; };
+		DC53FFC915BA2EE0007B5EC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC53FFC815BA2EE0007B5EC9 /* UIKit.framework */; };
+		DC53FFCB15BA2EE0007B5EC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC53FFCA15BA2EE0007B5EC9 /* Foundation.framework */; };
+		DC53FFCD15BA2EE0007B5EC9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC53FFCC15BA2EE0007B5EC9 /* CoreGraphics.framework */; };
+		DC53FFD315BA2EE0007B5EC9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC53FFD115BA2EE0007B5EC9 /* InfoPlist.strings */; };
+		DC53FFD515BA2EE0007B5EC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC53FFD415BA2EE0007B5EC9 /* main.m */; };
+		DC53FFD915BA2EE0007B5EC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC53FFD815BA2EE0007B5EC9 /* AppDelegate.m */; };
+		DC53FFDC15BA2EE0007B5EC9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC53FFDA15BA2EE0007B5EC9 /* MainStoryboard.storyboard */; };
+		DC53FFDF15BA2EE0007B5EC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC53FFDE15BA2EE0007B5EC9 /* ViewController.m */; };
+		DC53FFE715BA2EE0007B5EC9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC53FFE615BA2EE0007B5EC9 /* SenTestingKit.framework */; };
+		DC53FFE815BA2EE0007B5EC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC53FFC815BA2EE0007B5EC9 /* UIKit.framework */; };
+		DC53FFE915BA2EE0007B5EC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC53FFCA15BA2EE0007B5EC9 /* Foundation.framework */; };
+		DC53FFF115BA2EE0007B5EC9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC53FFEF15BA2EE0007B5EC9 /* InfoPlist.strings */; };
+		DC53FFF415BA2EE0007B5EC9 /* JerseyGeniusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC53FFF315BA2EE0007B5EC9 /* JerseyGeniusTests.m */; };
+		DC53FFFF15BA313A007B5EC9 /* Jersey.m in Sources */ = {isa = PBXBuildFile; fileRef = DC53FFFE15BA313A007B5EC9 /* Jersey.m */; };
+		DC57B92015DBF7430051D778 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = DC57B91C15DBF7430051D778 /* home.png */; };
+		DC57B92115DBF7430051D778 /* home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC57B91D15DBF7430051D778 /* home@2x.png */; };
+		DC57B92215DBF7430051D778 /* levels.png in Resources */ = {isa = PBXBuildFile; fileRef = DC57B91E15DBF7430051D778 /* levels.png */; };
+		DC57B92315DBF7430051D778 /* levels@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC57B91F15DBF7430051D778 /* levels@2x.png */; };
+		DC57B92915DBFED10051D778 /* other.png in Resources */ = {isa = PBXBuildFile; fileRef = DC57B92515DBFED10051D778 /* other.png */; };
+		DC57B92A15DBFED10051D778 /* other@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC57B92615DBFED10051D778 /* other@2x.png */; };
+		DC57B92B15DBFED10051D778 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = DC57B92715DBFED10051D778 /* play.png */; };
+		DC57B92C15DBFED10051D778 /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC57B92815DBFED10051D778 /* play@2x.png */; };
+		DC57B93115DC015D0051D778 /* checkguess.png in Resources */ = {isa = PBXBuildFile; fileRef = DC57B92D15DC015D0051D778 /* checkguess.png */; };
+		DC57B93215DC015D0051D778 /* checkguess@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC57B92E15DC015D0051D778 /* checkguess@2x.png */; };
+		DC57B93315DC015D0051D778 /* showhint.png in Resources */ = {isa = PBXBuildFile; fileRef = DC57B92F15DC015D0051D778 /* showhint.png */; };
+		DC57B93415DC015D0051D778 /* showhint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC57B93015DC015D0051D778 /* showhint@2x.png */; };
+		DC57B93D15DC05390051D778 /* guess.png in Resources */ = {isa = PBXBuildFile; fileRef = DC57B93915DC05390051D778 /* guess.png */; };
+		DC57B93E15DC05390051D778 /* guess@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC57B93A15DC05390051D778 /* guess@2x.png */; };
+		DC57B93F15DC05390051D778 /* hints.png in Resources */ = {isa = PBXBuildFile; fileRef = DC57B93B15DC05390051D778 /* hints.png */; };
+		DC57B94015DC05390051D778 /* hints@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC57B93C15DC05390051D778 /* hints@2x.png */; };
+		DC6066FF15E1CA0300BB20C1 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6066FB15E1CA0300BB20C1 /* info.png */; };
+		DC60670015E1CA0300BB20C1 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6066FB15E1CA0300BB20C1 /* info.png */; };
+		DC60670115E1CA0300BB20C1 /* info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6066FC15E1CA0300BB20C1 /* info@2x.png */; };
+		DC60670215E1CA0300BB20C1 /* info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6066FC15E1CA0300BB20C1 /* info@2x.png */; };
+		DC60670A15E1CE2D00BB20C1 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = DC60670815E1CE2D00BB20C1 /* back.png */; };
+		DC60670B15E1CE2D00BB20C1 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = DC60670815E1CE2D00BB20C1 /* back.png */; };
+		DC60670C15E1CE2D00BB20C1 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC60670915E1CE2D00BB20C1 /* back@2x.png */; };
+		DC60670D15E1CE2D00BB20C1 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC60670915E1CE2D00BB20C1 /* back@2x.png */; };
+		DC60671015E1D09600BB20C1 /* buyhints.png in Resources */ = {isa = PBXBuildFile; fileRef = DC60670E15E1D09600BB20C1 /* buyhints.png */; };
+		DC60671115E1D09600BB20C1 /* buyhints.png in Resources */ = {isa = PBXBuildFile; fileRef = DC60670E15E1D09600BB20C1 /* buyhints.png */; };
+		DC60671215E1D09600BB20C1 /* buyhints@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC60670F15E1D09600BB20C1 /* buyhints@2x.png */; };
+		DC60671315E1D09600BB20C1 /* buyhints@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC60670F15E1D09600BB20C1 /* buyhints@2x.png */; };
+		DC60671D15E1DA8E00BB20C1 /* sportsbgfire@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC60671C15E1DA8E00BB20C1 /* sportsbgfire@2x.png */; };
+		DC60671E15E1DA8E00BB20C1 /* sportsbgfire@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC60671C15E1DA8E00BB20C1 /* sportsbgfire@2x.png */; };
+		DC60672115E1DB2900BB20C1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC60672015E1DB2900BB20C1 /* Default@2x.png */; };
+		DC60672515E1DB5C00BB20C1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DC60672415E1DB5C00BB20C1 /* Default.png */; };
+		DC60672715E1EF6900BB20C1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC60672615E1EF6900BB20C1 /* StoreKit.framework */; };
+		DC6BC77215BDC4790006EC02 /* DB_Jerseys.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = DC6BC77115BDC4790006EC02 /* DB_Jerseys.sqlite */; };
+		DC84BC90160805700055B21C /* newHint.png in Resources */ = {isa = PBXBuildFile; fileRef = DC84BC8E160805700055B21C /* newHint.png */; };
+		DC84BC91160805700055B21C /* newHint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC84BC8F160805700055B21C /* newHint@2x.png */; };
+		DC84BC96160815120055B21C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC84BC95160815110055B21C /* MediaPlayer.framework */; };
+		DC84BC9916081A3B0055B21C /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = DC84BC9716081A3B0055B21C /* checkmark.png */; };
+		DC84BC9A16081A3B0055B21C /* checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC84BC9816081A3B0055B21C /* checkmark@2x.png */; };
+		DC85809D15C735010034B44F /* LevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC85809C15C735010034B44F /* LevelViewController.m */; };
+		DCB3A69115D753AE00E440F9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB3A69015D753AE00E440F9 /* AVFoundation.framework */; };
+		DCB3A69415D7542D00E440F9 /* correct.wav in Resources */ = {isa = PBXBuildFile; fileRef = DCB3A69315D7542D00E440F9 /* correct.wav */; };
+		DCBDBD4915D59BA700273515 /* greencheck.png in Resources */ = {isa = PBXBuildFile; fileRef = DCBDBD4715D59BA700273515 /* greencheck.png */; };
+		DCBDBD4A15D59BA700273515 /* redcross.png in Resources */ = {isa = PBXBuildFile; fileRef = DCBDBD4815D59BA700273515 /* redcross.png */; };
+		DCBDBD4D15D59BB600273515 /* greencheck@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCBDBD4B15D59BB500273515 /* greencheck@2x.png */; };
+		DCBDBD4E15D59BB600273515 /* redcross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCBDBD4C15D59BB600273515 /* redcross@2x.png */; };
+		DCBDBD5315D59C1800273515 /* popupCloseBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = DCBDBD4F15D59C1800273515 /* popupCloseBtn.png */; };
+		DCBDBD5415D59C1800273515 /* popupCloseBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCBDBD5015D59C1800273515 /* popupCloseBtn@2x.png */; };
+		DCBDBD5515D59C1800273515 /* popupWindowBack.png in Resources */ = {isa = PBXBuildFile; fileRef = DCBDBD5115D59C1800273515 /* popupWindowBack.png */; };
+		DCBDBD5615D59C1800273515 /* popupWindowBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCBDBD5215D59C1800273515 /* popupWindowBack@2x.png */; };
+		DCBDBD5915D59C3000273515 /* MTPopupWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBDBD5815D59C3000273515 /* MTPopupWindow.m */; };
+		DCBDBD5E15D59D0F00273515 /* MTPopupWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBDBD5815D59C3000273515 /* MTPopupWindow.m */; };
+		DCBDBD6215D59E1F00273515 /* yellowcircle.png in Resources */ = {isa = PBXBuildFile; fileRef = DCBDBD6015D59E1F00273515 /* yellowcircle.png */; };
+		DCBDBD6315D59E1F00273515 /* yellowcircle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCBDBD6115D59E1F00273515 /* yellowcircle@2x.png */; };
+		DCC1A1E815DD40B400F745CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC53FFD815BA2EE0007B5EC9 /* AppDelegate.m */; };
+		DCC1A1E915DD40B400F745CA /* Jersey.m in Sources */ = {isa = PBXBuildFile; fileRef = DC53FFFE15BA313A007B5EC9 /* Jersey.m */; };
+		DCC1A1EA15DD40B400F745CA /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = DC53000115BA317C007B5EC9 /* Level.m */; };
+		DCC1A1EB15DD40B400F745CA /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = DC00279115DA304200591BB1 /* Player.m */; };
+		DCC1A1EC15DD40B400F745CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC53FFDE15BA2EE0007B5EC9 /* ViewController.m */; };
+		DCC1A1ED15DD40B400F745CA /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2EAFD715D37C8500B293ED /* MenuViewController.m */; };
+		DCC1A1EE15DD40B400F745CA /* LevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC85809C15C735010034B44F /* LevelViewController.m */; };
+		DCC1A1F115DD40E800F745CA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB3A69015D753AE00E440F9 /* AVFoundation.framework */; };
+		DCC1A1F215DD40EC00F745CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC53FFCC15BA2EE0007B5EC9 /* CoreGraphics.framework */; };
+		DCC1A1F315DD410C00F745CA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DC53000A15BA4E3C007B5EC9 /* libsqlite3.dylib */; };
+		DCC1A20015DD63DF00F745CA /* percentBackground120.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A1FE15DD63DF00F745CA /* percentBackground120.png */; };
+		DCC1A20115DD63DF00F745CA /* percentBackground120@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A1FF15DD63DF00F745CA /* percentBackground120@2x.png */; };
+		DCC1A20915DD7D2600F745CA /* reset.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A20315DD7D2600F745CA /* reset.png */; };
+		DCC1A20A15DD7D2600F745CA /* reset@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A20415DD7D2600F745CA /* reset@2x.png */; };
+		DCC1A20B15DD7D2600F745CA /* soundOff.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A20515DD7D2600F745CA /* soundOff.png */; };
+		DCC1A20C15DD7D2600F745CA /* soundOff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A20615DD7D2600F745CA /* soundOff@2x.png */; };
+		DCC1A20D15DD7D2600F745CA /* soundOn.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A20715DD7D2600F745CA /* soundOn.png */; };
+		DCC1A20E15DD7D2600F745CA /* soundOn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC1A20815DD7D2600F745CA /* soundOn@2x.png */; };
+		DCE7C21015E08C8900FFF814 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF5B9E315DEF796008CABDA /* iAd.framework */; };
+		DCF5B9E415DEF796008CABDA /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF5B9E315DEF796008CABDA /* iAd.framework */; };
+		DCF5B9F815DF3186008CABDA /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = DCF5B9F615DF3186008CABDA /* lock.png */; };
+		DCF5B9F915DF3186008CABDA /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = DCF5B9F615DF3186008CABDA /* lock.png */; };
+		DCF5B9FA15DF3186008CABDA /* lock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCF5B9F715DF3186008CABDA /* lock@2x.png */; };
+		DCF5B9FB15DF3186008CABDA /* lock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCF5B9F715DF3186008CABDA /* lock@2x.png */; };
+		DCFEF00C15D1CEB8003CF796 /* Al Jefferson.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEF9115D1CEB8003CF796 /* Al Jefferson.png */; };
+		DCFEF00D15D1CEB8003CF796 /* Amar'e Stoudemire.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEF9215D1CEB8003CF796 /* Amar'e Stoudemire.png */; };
+		DCFEF00F15D1CEB8003CF796 /* Blake Griffin.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEF9415D1CEB8003CF796 /* Blake Griffin.png */; };
+		DCFEF01015D1CEB8003CF796 /* Carmelo Anthony.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEF9515D1CEB8003CF796 /* Carmelo Anthony.png */; };
+		DCFEF01115D1CEB8003CF796 /* Chris Bosh.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEF9615D1CEB8003CF796 /* Chris Bosh.png */; };
+		DCFEF01215D1CEB8003CF796 /* Chris Paul.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEF9715D1CEB8003CF796 /* Chris Paul.png */; };
+		DCFEF01315D1CEB8003CF796 /* David Lee.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEF9815D1CEB8003CF796 /* David Lee.png */; };
+		DCFEF01415D1CEB8003CF796 /* Deron Williams.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEF9915D1CEB8003CF796 /* Deron Williams.png */; };
+		DCFEF01515D1CEB8003CF796 /* Derrick Rose.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEF9A15D1CEB8003CF796 /* Derrick Rose.png */; };
+		DCFEF01615D1CEB8003CF796 /* Dirk Nowitzki.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEF9B15D1CEB8003CF796 /* Dirk Nowitzki.png */; };
+		DCFEF01715D1CEB8003CF796 /* Dwayne Wade.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEF9C15D1CEB8003CF796 /* Dwayne Wade.png */; };
+		DCFEF01815D1CEB8003CF796 /* Dwight Howard.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEF9D15D1CEB8003CF796 /* Dwight Howard.png */; };
+		DCFEF01915D1CEB8003CF796 /* James Harden.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEF9E15D1CEB8003CF796 /* James Harden.png */; };
+		DCFEF01A15D1CEB8003CF796 /* John Wall.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEF9F15D1CEB8003CF796 /* John Wall.png */; };
+		DCFEF01B15D1CEB8003CF796 /* Josh Smith.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFA015D1CEB8003CF796 /* Josh Smith.png */; };
+		DCFEF01C15D1CEB8003CF796 /* Kevin Durant.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFA115D1CEB8003CF796 /* Kevin Durant.png */; };
+		DCFEF01D15D1CEB8003CF796 /* Kevin Garnett.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFA215D1CEB8003CF796 /* Kevin Garnett.png */; };
+		DCFEF01E15D1CEB8003CF796 /* Kevin Love.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFA315D1CEB8003CF796 /* Kevin Love.png */; };
+		DCFEF01F15D1CEB8003CF796 /* Kobe Bryant.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFA415D1CEB8003CF796 /* Kobe Bryant.png */; };
+		DCFEF02015D1CEB8003CF796 /* LaMarcus Aldridge.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFA515D1CEB8003CF796 /* LaMarcus Aldridge.png */; };
+		DCFEF02115D1CEB8003CF796 /* Lebron James.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFA615D1CEB8003CF796 /* Lebron James.png */; };
+		DCFEF02215D1CEB8003CF796 /* Pau Gasol.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFA715D1CEB8003CF796 /* Pau Gasol.png */; };
+		DCFEF02315D1CEB8003CF796 /* Paul Pierce.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFA815D1CEB8003CF796 /* Paul Pierce.png */; };
+		DCFEF02415D1CEB8003CF796 /* Rajon Rondo.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFA915D1CEB8003CF796 /* Rajon Rondo.png */; };
+		DCFEF02515D1CEB8003CF796 /* Rudy Gay.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFAA15D1CEB8003CF796 /* Rudy Gay.png */; };
+		DCFEF02615D1CEB8003CF796 /* Russell Westbrook.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFAB15D1CEB8003CF796 /* Russell Westbrook.png */; };
+		DCFEF02715D1CEB8003CF796 /* Stephen Curry.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFAC15D1CEB8003CF796 /* Stephen Curry.png */; };
+		DCFEF02815D1CEB8003CF796 /* Tim Duncan.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFAD15D1CEB8003CF796 /* Tim Duncan.png */; };
+		DCFEF02915D1CEB8003CF796 /* Tony Parker.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFAE15D1CEB8003CF796 /* Tony Parker.png */; };
+		DCFEF02A15D1CEB8003CF796 /* Aaron Rodgers.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFB015D1CEB8003CF796 /* Aaron Rodgers.png */; };
+		DCFEF02B15D1CEB8003CF796 /* Adrian Peterson.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFB115D1CEB8003CF796 /* Adrian Peterson.png */; };
+		DCFEF02C15D1CEB8003CF796 /* Andrew Luck.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFB215D1CEB8003CF796 /* Andrew Luck.png */; };
+		DCFEF02D15D1CEB8003CF796 /* Arian Foster.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFB315D1CEB8003CF796 /* Arian Foster.png */; };
+		DCFEF02E15D1CEB8003CF796 /* Brian Urlacher.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFB415D1CEB8003CF796 /* Brian Urlacher.png */; };
+		DCFEF02F15D1CEB8003CF796 /* Calvin Johnson.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFB515D1CEB8003CF796 /* Calvin Johnson.png */; };
+		DCFEF03015D1CEB8003CF796 /* Cam Newton.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFB615D1CEB8003CF796 /* Cam Newton.png */; };
+		DCFEF03115D1CEB8003CF796 /* Chad Ochocinco.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFB715D1CEB8003CF796 /* Chad Ochocinco.png */; };
+		DCFEF03215D1CEB8003CF796 /* Clay Matthews.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFB815D1CEB8003CF796 /* Clay Matthews.png */; };
+		DCFEF03315D1CEB8003CF796 /* Darren McFadden.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFB915D1CEB8003CF796 /* Darren McFadden.png */; };
+		DCFEF03415D1CEB8003CF796 /* DeMarcus Ware.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFBA15D1CEB8003CF796 /* DeMarcus Ware.png */; };
+		DCFEF03515D1CEB8003CF796 /* DeSean Jackson.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFBB15D1CEB8003CF796 /* DeSean Jackson.png */; };
+		DCFEF03615D1CEB8003CF796 /* Drew Brees.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFBC15D1CEB8003CF796 /* Drew Brees.png */; };
+		DCFEF03715D1CEB8003CF796 /* Eli Manning.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFBD15D1CEB8003CF796 /* Eli Manning.png */; };
+		DCFEF03815D1CEB8003CF796 /* Larry Fitzgerald.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFBE15D1CEB8003CF796 /* Larry Fitzgerald.png */; };
+		DCFEF03915D1CEB8003CF796 /* Mario Williams.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFBF15D1CEB8003CF796 /* Mario Williams.png */; };
+		DCFEF03A15D1CEB8003CF796 /* Maurice Jones-Drew.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFC015D1CEB8003CF796 /* Maurice Jones-Drew.png */; };
+		DCFEF03B15D1CEB8003CF796 /* Michael Vick.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFC115D1CEB8003CF796 /* Michael Vick.png */; };
+		DCFEF03C15D1CEB8003CF796 /* Miles Austin.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFC215D1CEB8003CF796 /* Miles Austin.png */; };
+		DCFEF03D15D1CEB8003CF796 /* Ndamukong Suh.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFC315D1CEB8003CF796 /* Ndamukong Suh.png */; };
+		DCFEF03E15D1CEB8003CF796 /* Patrick Willis.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFC415D1CEB8003CF796 /* Patrick Willis.png */; };
+		DCFEF03F15D1CEB8003CF796 /* Peyton Manning.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFC515D1CEB8003CF796 /* Peyton Manning.png */; };
+		DCFEF04015D1CEB8003CF796 /* Ray Lewis.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFC615D1CEB8003CF796 /* Ray Lewis.png */; };
+		DCFEF04115D1CEB8003CF796 /* Rob Gronkowski.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFC715D1CEB8003CF796 /* Rob Gronkowski.png */; };
+		DCFEF04215D1CEB8003CF796 /* Robert Griffin III.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFC815D1CEB8003CF796 /* Robert Griffin III.png */; };
+		DCFEF04315D1CEB8003CF796 /* Tim Tebow.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFC915D1CEB8003CF796 /* Tim Tebow.png */; };
+		DCFEF04415D1CEB8003CF796 /* Tom Brady.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFCA15D1CEB8003CF796 /* Tom Brady.png */; };
+		DCFEF04515D1CEB8003CF796 /* Tony Romo.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFCB15D1CEB8003CF796 /* Tony Romo.png */; };
+		DCFEF04615D1CEB8003CF796 /* Troy Polamalu.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFCC15D1CEB8003CF796 /* Troy Polamalu.png */; };
+		DCFEF04715D1CEB8003CF796 /* Victor Cruz.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFCD15D1CEB8003CF796 /* Victor Cruz.png */; };
+		DCFEF04815D1CEB8003CF796 /* Andrew Bynum.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFCF15D1CEB8003CF796 /* Andrew Bynum.png */; };
+		DCFEF04915D1CEB8003CF796 /* Anthony Davis.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFD015D1CEB8003CF796 /* Anthony Davis.png */; };
+		DCFEF04A15D1CEB8003CF796 /* Baron Davis.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFD115D1CEB8003CF796 /* Baron Davis.png */; };
+		DCFEF04B15D1CEB8003CF796 /* Brandon Jennings.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFD215D1CEB8003CF796 /* Brandon Jennings.png */; };
+		DCFEF04C15D1CEB8003CF796 /* Carlos Boozer.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFD315D1CEB8003CF796 /* Carlos Boozer.png */; };
+		DCFEF04D15D1CEB8003CF796 /* Danny Granger.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFD415D1CEB8003CF796 /* Danny Granger.png */; };
+		DCFEF04E15D1CEB8003CF796 /* DeMarcus Cousins.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFD515D1CEB8003CF796 /* DeMarcus Cousins.png */; };
+		DCFEF04F15D1CEB8003CF796 /* J. J. Redick.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFD615D1CEB8003CF796 /* J. J. Redick.png */; };
+		DCFEF05015D1CEB8003CF796 /* Jason Kidd.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFD715D1CEB8003CF796 /* Jason Kidd.png */; };
+		DCFEF05115D1CEB8003CF796 /* Jeremy Lin.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFD815D1CEB8003CF796 /* Jeremy Lin.png */; };
+		DCFEF05215D1CEB8003CF796 /* Joakim Noah.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFD915D1CEB8003CF796 /* Joakim Noah.png */; };
+		DCFEF05315D1CEB8003CF796 /* Joe Johnson.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFDA15D1CEB8003CF796 /* Joe Johnson.png */; };
+		DCFEF05415D1CEB8003CF796 /* Kemba Walker.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFDB15D1CEB8003CF796 /* Kemba Walker.png */; };
+		DCFEF05515D1CEB8003CF796 /* Kirk Hinrich.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFDC15D1CEB8003CF796 /* Kirk Hinrich.png */; };
+		DCFEF05615D1CEB8003CF796 /* Kris Humphries.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFDD15D1CEB8003CF796 /* Kris Humphries.png */; };
+		DCFEF05715D1CEB8003CF796 /* Luol Deng.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFDE15D1CEB8003CF796 /* Luol Deng.png */; };
+		DCFEF05815D1CEB8003CF796 /* Manu Ginobili.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFDF15D1CEB8003CF796 /* Manu Ginobili.png */; };
+		DCFEF05915D1CEB8003CF796 /* Marc Gasol.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFE015D1CEB8003CF796 /* Marc Gasol.png */; };
+		DCFEF05A15D1CEB8003CF796 /* Metta World Peace.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFE115D1CEB8003CF796 /* Metta World Peace.png */; };
+		DCFEF05B15D1CEB8003CF796 /* Monta Ellis.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFE215D1CEB8003CF796 /* Monta Ellis.png */; };
+		DCFEF05C15D1CEB8003CF796 /* Ray Allen.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFE315D1CEB8003CF796 /* Ray Allen.png */; };
+		DCFEF05D15D1CEB8003CF796 /* Ricky Rubio.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFE415D1CEB8003CF796 /* Ricky Rubio.png */; };
+		DCFEF05E15D1CEB8003CF796 /* Roy Hibbert.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFE515D1CEB8003CF796 /* Roy Hibbert.png */; };
+		DCFEF05F15D1CEB8003CF796 /* Serge Ibaka.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFE615D1CEB8003CF796 /* Serge Ibaka.png */; };
+		DCFEF06015D1CEB8003CF796 /* Shawn Marion.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFE715D1CEB8003CF796 /* Shawn Marion.png */; };
+		DCFEF06215D1CEB8003CF796 /* Tayshaun Prince.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFE915D1CEB8003CF796 /* Tayshaun Prince.png */; };
+		DCFEF06315D1CEB8003CF796 /* Tracy McGrady.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFEA15D1CEB8003CF796 /* Tracy McGrady.png */; };
+		DCFEF06415D1CEB8003CF796 /* Tyson Chandler.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFEB15D1CEB8003CF796 /* Tyson Chandler.png */; };
+		DCFEF06515D1CEB8003CF796 /* Vince Carter.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFEC15D1CEB8003CF796 /* Vince Carter.png */; };
+		DCFEF06615D1CEB8003CF796 /* A. J. Green.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFEE15D1CEB8003CF796 /* A. J. Green.png */; };
+		DCFEF06715D1CEB8003CF796 /* Ben Roethlisberger.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFEF15D1CEB8003CF796 /* Ben Roethlisberger.png */; };
+		DCFEF06815D1CEB8003CF796 /* Brandon Marshall.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFF015D1CEB8003CF796 /* Brandon Marshall.png */; };
+		DCFEF06915D1CEB8003CF796 /* Carl Nicks.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFF115D1CEB8003CF796 /* Carl Nicks.png */; };
+		DCFEF06A15D1CEB8003CF796 /* Champ Bailey.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFF215D1CEB8003CF796 /* Champ Bailey.png */; };
+		DCFEF06B15D1CEB8003CF796 /* Charles Woodson.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFF315D1CEB8003CF796 /* Charles Woodson.png */; };
+		DCFEF06C15D1CEB8003CF796 /* D'Brickashaw Ferguson.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFF415D1CEB8003CF796 /* D'Brickashaw Ferguson.png */; };
+		DCFEF06D15D1CEB8003CF796 /* Darrelle Revis.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFF515D1CEB8003CF796 /* Darrelle Revis.png */; };
+		DCFEF06E15D1CEB8003CF796 /* Dez Bryant.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFF615D1CEB8003CF796 /* Dez Bryant.png */; };
+		DCFEF06F15D1CEB8003CF796 /* Dwight Freeney.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFF715D1CEB8003CF796 /* Dwight Freeney.png */; };
+		DCFEF07015D1CEB8003CF796 /* Frank Gore.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFF815D1CEB8003CF796 /* Frank Gore.png */; };
+		DCFEF07115D1CEB8003CF796 /* Greg Jennings.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFF915D1CEB8003CF796 /* Greg Jennings.png */; };
+		DCFEF07215D1CEB8003CF796 /* James Harrison.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFFA15D1CEB8003CF796 /* James Harrison.png */; };
+		DCFEF07315D1CEB8003CF796 /* Jason Peters.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFFB15D1CEB8003CF796 /* Jason Peters.png */; };
+		DCFEF07415D1CEB8003CF796 /* Jason Pierre-Paul.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFFC15D1CEB8003CF796 /* Jason Pierre-Paul.png */; };
+		DCFEF07515D1CEB8003CF796 /* Jimmy Graham.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFFD15D1CEB8003CF796 /* Jimmy Graham.png */; };
+		DCFEF07615D1CEB8003CF796 /* LeSean McCoy.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFFE15D1CEB8003CF796 /* LeSean McCoy.png */; };
+		DCFEF07715D1CEB8003CF796 /* Marshal Yanda.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEEFFF15D1CEB8003CF796 /* Marshal Yanda.png */; };
+		DCFEF07815D1CEB8003CF796 /* Marshawn Lynch.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEF00015D1CEB8003CF796 /* Marshawn Lynch.png */; };
+		DCFEF07915D1CEB8003CF796 /* Matt Forte.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEF00115D1CEB8003CF796 /* Matt Forte.png */; };
+		DCFEF07A15D1CEB8003CF796 /* Mike Wallace.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEF00215D1CEB8003CF796 /* Mike Wallace.png */; };
+		DCFEF07B15D1CEB8003CF796 /* Philip Rivers.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEF00315D1CEB8003CF796 /* Philip Rivers.png */; };
+		DCFEF07C15D1CEB8003CF796 /* Ray Rice.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEF00415D1CEB8003CF796 /* Ray Rice.png */; };
+		DCFEF07D15D1CEB8003CF796 /* Roddy White.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEF00515D1CEB8003CF796 /* Roddy White.png */; };
+		DCFEF07E15D1CEB8003CF796 /* Ryan Kalil.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEF00615D1CEB8003CF796 /* Ryan Kalil.png */; };
+		DCFEF07F15D1CEB8003CF796 /* Ryan Matthews.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEF00715D1CEB8003CF796 /* Ryan Matthews.png */; };
+		DCFEF08015D1CEB8003CF796 /* Steve Smith.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEF00815D1CEB8003CF796 /* Steve Smith.png */; };
+		DCFEF08115D1CEB8003CF796 /* Terrell Suggs.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEF00915D1CEB8003CF796 /* Terrell Suggs.png */; };
+		DCFEF08215D1CEB8003CF796 /* Von Miller.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEF00A15D1CEB8003CF796 /* Von Miller.png */; };
+		DCFEF08315D1CEB8003CF796 /* Wes Welker.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFEF00B15D1CEB8003CF796 /* Wes Welker.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC53FFEA15BA2EE0007B5EC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC53FFBB15BA2EE0007B5EC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC53FFC315BA2EE0007B5EC9;
+			remoteInfo = JerseyGenius;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC00278615DA0C8700591BB1 /* Steve Nash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Steve Nash.png"; sourceTree = "<group>"; };
+		DC00278815DA0CA100591BB1 /* Andre Iguodala.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Andre Iguodala.png"; sourceTree = "<group>"; };
+		DC00279015DA304200591BB1 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		DC00279115DA304200591BB1 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		DC05B11715DB74F400CB8D86 /* mainImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mainImage@2x.png"; sourceTree = "<group>"; };
+		DC05B11A15DB7E0100CB8D86 /* percentBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "percentBackground@2x.png"; sourceTree = "<group>"; };
+		DC05B11C15DB7E3200CB8D86 /* percentBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = percentBackground.png; sourceTree = "<group>"; };
+		DC05B12215DB941700CB8D86 /* hintsBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hintsBackground.png; sourceTree = "<group>"; };
+		DC05B12315DB941700CB8D86 /* hintsBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hintsBackground@2x.png"; sourceTree = "<group>"; };
+		DC05B12415DB941700CB8D86 /* pointsBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pointsBackground.png; sourceTree = "<group>"; };
+		DC05B12515DB941700CB8D86 /* pointsBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pointsBackground@2x.png"; sourceTree = "<group>"; };
+		DC05B12B15DB995C00CB8D86 /* topbarName.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topbarName.png; sourceTree = "<group>"; };
+		DC05B12C15DB995C00CB8D86 /* topbarName@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "topbarName@2x.png"; sourceTree = "<group>"; };
+		DC06D33B15DE14C5003AE31A /* ScrollingAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollingAppDelegate.h; sourceTree = "<group>"; };
+		DC06D33C15DE14C5003AE31A /* ScrollingAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollingAppDelegate.m; sourceTree = "<group>"; };
+		DC2EAFD615D37C8500B293ED /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		DC2EAFD715D37C8500B293ED /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		DC319145160C411C001C8333 /* 3NFL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3NFL@2x.png"; sourceTree = "<group>"; };
+		DC319146160C411C001C8333 /* 4NFL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4NFL@2x.png"; sourceTree = "<group>"; };
+		DC31914B160C412A001C8333 /* Aaron Hernandez.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Aaron Hernandez.png"; sourceTree = "<group>"; };
+		DC31914C160C412A001C8333 /* Antonio Gates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Antonio Gates.png"; sourceTree = "<group>"; };
+		DC31914D160C412A001C8333 /* Brian Cushing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brian Cushing.png"; sourceTree = "<group>"; };
+		DC31914E160C412A001C8333 /* Chris Johnson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chris Johnson.png"; sourceTree = "<group>"; };
+		DC31914F160C412A001C8333 /* Darren Sproles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Darren Sproles.png"; sourceTree = "<group>"; };
+		DC319150160C412A001C8333 /* DeMarco Murray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DeMarco Murray.png"; sourceTree = "<group>"; };
+		DC319151160C412A001C8333 /* Dwayne Bowe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dwayne Bowe.png"; sourceTree = "<group>"; };
+		DC319152160C412A001C8333 /* Ed Reed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ed Reed.png"; sourceTree = "<group>"; };
+		DC319153160C412A001C8333 /* Hakeem Nicks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hakeem Nicks.png"; sourceTree = "<group>"; };
+		DC319154160C412A001C8333 /* Jamaal Charles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jamaal Charles.png"; sourceTree = "<group>"; };
+		DC319155160C412A001C8333 /* Jared Allen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jared Allen.png"; sourceTree = "<group>"; };
+		DC319156160C412A001C8333 /* Jay Cutler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jay Cutler.png"; sourceTree = "<group>"; };
+		DC319157160C412A001C8333 /* Joe Flacco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Joe Flacco.png"; sourceTree = "<group>"; };
+		DC319158160C412A001C8333 /* Jordy Nelson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jordy Nelson.png"; sourceTree = "<group>"; };
+		DC319159160C412A001C8333 /* Julio Jones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Julio Jones.png"; sourceTree = "<group>"; };
+		DC31915A160C412A001C8333 /* Justin Tuck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Justin Tuck.png"; sourceTree = "<group>"; };
+		DC31915B160C412A001C8333 /* London Fletcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "London Fletcher.png"; sourceTree = "<group>"; };
+		DC31915C160C412A001C8333 /* Mark Sanchez.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mark Sanchez.png"; sourceTree = "<group>"; };
+		DC31915D160C412A001C8333 /* Matt Ryan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Matt Ryan.png"; sourceTree = "<group>"; };
+		DC31915E160C412A001C8333 /* Matt Schaub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Matt Schaub.png"; sourceTree = "<group>"; };
+		DC31915F160C412A001C8333 /* Matthew Stafford.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Matthew Stafford.png"; sourceTree = "<group>"; };
+		DC319160160C412A001C8333 /* Nnamdi Asomugha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nnamdi Asomugha.png"; sourceTree = "<group>"; };
+		DC319161160C412A001C8333 /* Peyton Hillis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Peyton Hillis.png"; sourceTree = "<group>"; };
+		DC319162160C412A001C8333 /* Randy Moss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Randy Moss.png"; sourceTree = "<group>"; };
+		DC319163160C412A001C8333 /* Reggie Bush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reggie Bush.png"; sourceTree = "<group>"; };
+		DC319164160C412A001C8333 /* Reggie Wayne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reggie Wayne.png"; sourceTree = "<group>"; };
+		DC319165160C412A001C8333 /* Steve Johnson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Steve Johnson.png"; sourceTree = "<group>"; };
+		DC319166160C412A001C8333 /* Steven Jackson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Steven Jackson.png"; sourceTree = "<group>"; };
+		DC319167160C412A001C8333 /* Trent Richardson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Trent Richardson.png"; sourceTree = "<group>"; };
+		DC319168160C412A001C8333 /* Vincent Jackson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vincent Jackson.png"; sourceTree = "<group>"; };
+		DC31916A160C412A001C8333 /* Alex Smith.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Alex Smith.png"; sourceTree = "<group>"; };
+		DC31916B160C412A001C8333 /* Andy Dalton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Andy Dalton.png"; sourceTree = "<group>"; };
+		DC31916C160C412A001C8333 /* Anquan Boldin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Anquan Boldin.png"; sourceTree = "<group>"; };
+		DC31916D160C412A001C8333 /* Antonio Brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Antonio Brown.png"; sourceTree = "<group>"; };
+		DC31916E160C412A001C8333 /* Bernard Pollard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bernard Pollard.png"; sourceTree = "<group>"; };
+		DC31916F160C412A001C8333 /* Brandon Lloyd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brandon Lloyd.png"; sourceTree = "<group>"; };
+		DC319170160C412A001C8333 /* Brandon Weeden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brandon Weeden.png"; sourceTree = "<group>"; };
+		DC319171160C412A001C8333 /* Brian Orakpo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brian Orakpo.png"; sourceTree = "<group>"; };
+		DC319172160C412A001C8333 /* Cameron Wake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cameron Wake.png"; sourceTree = "<group>"; };
+		DC319173160C412A001C8333 /* Carson Palmer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Carson Palmer.png"; sourceTree = "<group>"; };
+		DC319174160C412A001C8333 /* Earl Thomas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Earl Thomas.png"; sourceTree = "<group>"; };
+		DC319175160C412A001C8333 /* Eric Berry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Eric Berry.png"; sourceTree = "<group>"; };
+		DC319176160C412A001C8333 /* Eric Decker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Eric Decker.png"; sourceTree = "<group>"; };
+		DC319177160C412A001C8333 /* Fred Jackson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fred Jackson.png"; sourceTree = "<group>"; };
+		DC319178160C412A001C8333 /* Haloti Ngata.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Haloti Ngata.png"; sourceTree = "<group>"; };
+		DC319179160C412A001C8333 /* Ike Taylor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ike Taylor.png"; sourceTree = "<group>"; };
+		DC31917A160C412A001C8333 /* J. J. Watt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "J. J. Watt.png"; sourceTree = "<group>"; };
+		DC31917B160C412A001C8333 /* Jason Witten.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jason Witten.png"; sourceTree = "<group>"; };
+		DC31917C160C412A001C8333 /* Jeremy Maclin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jeremy Maclin.png"; sourceTree = "<group>"; };
+		DC31917D160C412A001C8333 /* Johnathan Joseph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Johnathan Joseph.png"; sourceTree = "<group>"; };
+		DC31917E160C412A001C8333 /* Mark Barron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mark Barron.png"; sourceTree = "<group>"; };
+		DC31917F160C412A001C8333 /* Marques Colston.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Marques Colston.png"; sourceTree = "<group>"; };
+		DC319180160C412A001C8333 /* Michael Turner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Michael Turner.png"; sourceTree = "<group>"; };
+		DC319181160C412A001C8333 /* Percy Harvin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Percy Harvin.png"; sourceTree = "<group>"; };
+		DC319182160C412A001C8333 /* Ryan Fitzpatrick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ryan Fitzpatrick.png"; sourceTree = "<group>"; };
+		DC319183160C412A001C8333 /* Ryan Tannehill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ryan Tannehill.png"; sourceTree = "<group>"; };
+		DC319184160C412A001C8333 /* Sam Bradford.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sam Bradford.png"; sourceTree = "<group>"; };
+		DC319185160C412A001C8333 /* Santonio Holmes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Santonio Holmes.png"; sourceTree = "<group>"; };
+		DC319186160C412A001C8333 /* Vernon Davis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vernon Davis.png"; sourceTree = "<group>"; };
+		DC319187160C412A001C8333 /* Vince Wilfork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vince Wilfork.png"; sourceTree = "<group>"; };
+		DC319D6E15DC8E8800E4FD65 /* MTMiniPopupWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMiniPopupWindow.h; sourceTree = "<group>"; };
+		DC319D6F15DC8E8800E4FD65 /* MTMiniPopupWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMiniPopupWindow.m; sourceTree = "<group>"; };
+		DC319D7015DC8E8800E4FD65 /* popupWindowBackSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popupWindowBackSmall.png; sourceTree = "<group>"; };
+		DC319D7115DC8E8800E4FD65 /* popupWindowBackSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popupWindowBackSmall@2x.png"; sourceTree = "<group>"; };
+		DC319D7915DC966F00E4FD65 /* backtogame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backtogame.png; sourceTree = "<group>"; };
+		DC319D7A15DC966F00E4FD65 /* backtogame@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backtogame@2x.png"; sourceTree = "<group>"; };
+		DC38967615DB6043002E7EA6 /* blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blank.png; sourceTree = "<group>"; };
+		DC38967815DB60B9002E7EA6 /* blank@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blank@2x.png"; sourceTree = "<group>"; };
+		DC3EEE0515DB2173002AD326 /* topbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topbar.png; sourceTree = "<group>"; };
+		DC3EEE0615DB2173002AD326 /* topbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "topbar@2x.png"; sourceTree = "<group>"; };
+		DC3EEE0E15DB3328002AD326 /* sportsbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sportsbg.png; sourceTree = "<group>"; };
+		DC3EEE0F15DB3328002AD326 /* sportsbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sportsbg@2x.png"; sourceTree = "<group>"; };
+		DC3EEE1B15DB4C3E002AD326 /* 1NBA@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1NBA@2x.png"; sourceTree = "<group>"; };
+		DC3EEE1C15DB4C3E002AD326 /* 1NFL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1NFL@2x.png"; sourceTree = "<group>"; };
+		DC3EEE1D15DB4C3E002AD326 /* 2NBA@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2NBA@2x.png"; sourceTree = "<group>"; };
+		DC3EEE1E15DB4C3E002AD326 /* 2NFL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2NFL@2x.png"; sourceTree = "<group>"; };
+		DC4F4A731600019700452273 /* Soon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Soon@2x.png"; sourceTree = "<group>"; };
+		DC4F4A7A160017BE00452273 /* 57_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57_57.png; sourceTree = "<group>"; };
+		DC4F4A7D160017C100452273 /* 114_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114_114.png; sourceTree = "<group>"; };
+		DC4F4A7F1600283D00452273 /* question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = question.png; sourceTree = "<group>"; };
+		DC4F4A801600283D00452273 /* question@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "question@2x.png"; sourceTree = "<group>"; };
+		DC4F4A8616002DC100452273 /* MTBlankPopupWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTBlankPopupWindow.h; sourceTree = "<group>"; };
+		DC4F4A8716002DC100452273 /* MTBlankPopupWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTBlankPopupWindow.m; sourceTree = "<group>"; };
+		DC4F4A95160036AE00452273 /* popupTips@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popupTips@2x.png"; sourceTree = "<group>"; };
+		DC53000015BA317C007B5EC9 /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level.h; sourceTree = "<group>"; };
+		DC53000115BA317C007B5EC9 /* Level.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level.m; sourceTree = "<group>"; };
+		DC53000A15BA4E3C007B5EC9 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		DC53FFC415BA2EE0007B5EC9 /* JerseyGenius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JerseyGenius.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC53FFC815BA2EE0007B5EC9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC53FFCA15BA2EE0007B5EC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC53FFCC15BA2EE0007B5EC9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC53FFD015BA2EE0007B5EC9 /* JerseyGenius-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JerseyGenius-Info.plist"; sourceTree = "<group>"; };
+		DC53FFD215BA2EE0007B5EC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC53FFD415BA2EE0007B5EC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC53FFD615BA2EE0007B5EC9 /* JerseyGenius-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JerseyGenius-Prefix.pch"; sourceTree = "<group>"; };
+		DC53FFD715BA2EE0007B5EC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC53FFD815BA2EE0007B5EC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC53FFDB15BA2EE0007B5EC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DC53FFDD15BA2EE0007B5EC9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC53FFDE15BA2EE0007B5EC9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC53FFE515BA2EE0007B5EC9 /* JerseyGeniusTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JerseyGeniusTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC53FFE615BA2EE0007B5EC9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DC53FFEE15BA2EE0007B5EC9 /* JerseyGeniusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JerseyGeniusTests-Info.plist"; sourceTree = "<group>"; };
+		DC53FFF015BA2EE0007B5EC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC53FFF215BA2EE0007B5EC9 /* JerseyGeniusTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JerseyGeniusTests.h; sourceTree = "<group>"; };
+		DC53FFF315BA2EE0007B5EC9 /* JerseyGeniusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JerseyGeniusTests.m; sourceTree = "<group>"; };
+		DC53FFFD15BA313A007B5EC9 /* Jersey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jersey.h; sourceTree = "<group>"; };
+		DC53FFFE15BA313A007B5EC9 /* Jersey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jersey.m; sourceTree = "<group>"; };
+		DC57B91C15DBF7430051D778 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		DC57B91D15DBF7430051D778 /* home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home@2x.png"; sourceTree = "<group>"; };
+		DC57B91E15DBF7430051D778 /* levels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = levels.png; sourceTree = "<group>"; };
+		DC57B91F15DBF7430051D778 /* levels@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "levels@2x.png"; sourceTree = "<group>"; };
+		DC57B92515DBFED10051D778 /* other.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = other.png; sourceTree = "<group>"; };
+		DC57B92615DBFED10051D778 /* other@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "other@2x.png"; sourceTree = "<group>"; };
+		DC57B92715DBFED10051D778 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		DC57B92815DBFED10051D778 /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
+		DC57B92D15DC015D0051D778 /* checkguess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkguess.png; sourceTree = "<group>"; };
+		DC57B92E15DC015D0051D778 /* checkguess@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkguess@2x.png"; sourceTree = "<group>"; };
+		DC57B92F15DC015D0051D778 /* showhint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = showhint.png; sourceTree = "<group>"; };
+		DC57B93015DC015D0051D778 /* showhint@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "showhint@2x.png"; sourceTree = "<group>"; };
+		DC57B93915DC05390051D778 /* guess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guess.png; sourceTree = "<group>"; };
+		DC57B93A15DC05390051D778 /* guess@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guess@2x.png"; sourceTree = "<group>"; };
+		DC57B93B15DC05390051D778 /* hints.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hints.png; sourceTree = "<group>"; };
+		DC57B93C15DC05390051D778 /* hints@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hints@2x.png"; sourceTree = "<group>"; };
+		DC6066FB15E1CA0300BB20C1 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		DC6066FC15E1CA0300BB20C1 /* info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info@2x.png"; sourceTree = "<group>"; };
+		DC60670815E1CE2D00BB20C1 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		DC60670915E1CE2D00BB20C1 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		DC60670E15E1D09600BB20C1 /* buyhints.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buyhints.png; sourceTree = "<group>"; };
+		DC60670F15E1D09600BB20C1 /* buyhints@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buyhints@2x.png"; sourceTree = "<group>"; };
+		DC60671C15E1DA8E00BB20C1 /* sportsbgfire@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sportsbgfire@2x.png"; sourceTree = "<group>"; };
+		DC60672015E1DB2900BB20C1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DC60672415E1DB5C00BB20C1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DC60672615E1EF6900BB20C1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		DC6BC77115BDC4790006EC02 /* DB_Jerseys.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = DB_Jerseys.sqlite; sourceTree = "<group>"; };
+		DC84BC8E160805700055B21C /* newHint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newHint.png; sourceTree = "<group>"; };
+		DC84BC8F160805700055B21C /* newHint@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "newHint@2x.png"; sourceTree = "<group>"; };
+		DC84BC95160815110055B21C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		DC84BC9716081A3B0055B21C /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
+		DC84BC9816081A3B0055B21C /* checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark@2x.png"; sourceTree = "<group>"; };
+		DC85809B15C735010034B44F /* LevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelViewController.h; sourceTree = "<group>"; };
+		DC85809C15C735010034B44F /* LevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelViewController.m; sourceTree = "<group>"; };
+		DCB3A69015D753AE00E440F9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DCB3A69315D7542D00E440F9 /* correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = correct.wav; sourceTree = "<group>"; };
+		DCBDBD4715D59BA700273515 /* greencheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greencheck.png; sourceTree = "<group>"; };
+		DCBDBD4815D59BA700273515 /* redcross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redcross.png; sourceTree = "<group>"; };
+		DCBDBD4B15D59BB500273515 /* greencheck@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greencheck@2x.png"; sourceTree = "<group>"; };
+		DCBDBD4C15D59BB600273515 /* redcross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "redcross@2x.png"; sourceTree = "<group>"; };
+		DCBDBD4F15D59C1800273515 /* popupCloseBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popupCloseBtn.png; sourceTree = "<group>"; };
+		DCBDBD5015D59C1800273515 /* popupCloseBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popupCloseBtn@2x.png"; sourceTree = "<group>"; };
+		DCBDBD5115D59C1800273515 /* popupWindowBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popupWindowBack.png; sourceTree = "<group>"; };
+		DCBDBD5215D59C1800273515 /* popupWindowBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popupWindowBack@2x.png"; sourceTree = "<group>"; };
+		DCBDBD5715D59C3000273515 /* MTPopupWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPopupWindow.h; sourceTree = "<group>"; };
+		DCBDBD5815D59C3000273515 /* MTPopupWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPopupWindow.m; sourceTree = "<group>"; };
+		DCBDBD6015D59E1F00273515 /* yellowcircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowcircle.png; sourceTree = "<group>"; };
+		DCBDBD6115D59E1F00273515 /* yellowcircle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yellowcircle@2x.png"; sourceTree = "<group>"; };
+		DCC1A1FE15DD63DF00F745CA /* percentBackground120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = percentBackground120.png; sourceTree = "<group>"; };
+		DCC1A1FF15DD63DF00F745CA /* percentBackground120@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "percentBackground120@2x.png"; sourceTree = "<group>"; };
+		DCC1A20315DD7D2600F745CA /* reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reset.png; sourceTree = "<group>"; };
+		DCC1A20415DD7D2600F745CA /* reset@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reset@2x.png"; sourceTree = "<group>"; };
+		DCC1A20515DD7D2600F745CA /* soundOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soundOff.png; sourceTree = "<group>"; };
+		DCC1A20615DD7D2600F745CA /* soundOff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soundOff@2x.png"; sourceTree = "<group>"; };
+		DCC1A20715DD7D2600F745CA /* soundOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soundOn.png; sourceTree = "<group>"; };
+		DCC1A20815DD7D2600F745CA /* soundOn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soundOn@2x.png"; sourceTree = "<group>"; };
+		DCF5B9E315DEF796008CABDA /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		DCF5B9F615DF3186008CABDA /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock.png; sourceTree = "<group>"; };
+		DCF5B9F715DF3186008CABDA /* lock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lock@2x.png"; sourceTree = "<group>"; };
+		DCFEEF9115D1CEB8003CF796 /* Al Jefferson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Al Jefferson.png"; sourceTree = "<group>"; };
+		DCFEEF9215D1CEB8003CF796 /* Amar'e Stoudemire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Amar'e Stoudemire.png"; sourceTree = "<group>"; };
+		DCFEEF9415D1CEB8003CF796 /* Blake Griffin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blake Griffin.png"; sourceTree = "<group>"; };
+		DCFEEF9515D1CEB8003CF796 /* Carmelo Anthony.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Carmelo Anthony.png"; sourceTree = "<group>"; };
+		DCFEEF9615D1CEB8003CF796 /* Chris Bosh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chris Bosh.png"; sourceTree = "<group>"; };
+		DCFEEF9715D1CEB8003CF796 /* Chris Paul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chris Paul.png"; sourceTree = "<group>"; };
+		DCFEEF9815D1CEB8003CF796 /* David Lee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "David Lee.png"; sourceTree = "<group>"; };
+		DCFEEF9915D1CEB8003CF796 /* Deron Williams.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Deron Williams.png"; sourceTree = "<group>"; };
+		DCFEEF9A15D1CEB8003CF796 /* Derrick Rose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Derrick Rose.png"; sourceTree = "<group>"; };
+		DCFEEF9B15D1CEB8003CF796 /* Dirk Nowitzki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dirk Nowitzki.png"; sourceTree = "<group>"; };
+		DCFEEF9C15D1CEB8003CF796 /* Dwayne Wade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dwayne Wade.png"; sourceTree = "<group>"; };
+		DCFEEF9D15D1CEB8003CF796 /* Dwight Howard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dwight Howard.png"; sourceTree = "<group>"; };
+		DCFEEF9E15D1CEB8003CF796 /* James Harden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "James Harden.png"; sourceTree = "<group>"; };
+		DCFEEF9F15D1CEB8003CF796 /* John Wall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "John Wall.png"; sourceTree = "<group>"; };
+		DCFEEFA015D1CEB8003CF796 /* Josh Smith.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Josh Smith.png"; sourceTree = "<group>"; };
+		DCFEEFA115D1CEB8003CF796 /* Kevin Durant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kevin Durant.png"; sourceTree = "<group>"; };
+		DCFEEFA215D1CEB8003CF796 /* Kevin Garnett.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kevin Garnett.png"; sourceTree = "<group>"; };
+		DCFEEFA315D1CEB8003CF796 /* Kevin Love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kevin Love.png"; sourceTree = "<group>"; };
+		DCFEEFA415D1CEB8003CF796 /* Kobe Bryant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kobe Bryant.png"; sourceTree = "<group>"; };
+		DCFEEFA515D1CEB8003CF796 /* LaMarcus Aldridge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaMarcus Aldridge.png"; sourceTree = "<group>"; };
+		DCFEEFA615D1CEB8003CF796 /* Lebron James.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lebron James.png"; sourceTree = "<group>"; };
+		DCFEEFA715D1CEB8003CF796 /* Pau Gasol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pau Gasol.png"; sourceTree = "<group>"; };
+		DCFEEFA815D1CEB8003CF796 /* Paul Pierce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Paul Pierce.png"; sourceTree = "<group>"; };
+		DCFEEFA915D1CEB8003CF796 /* Rajon Rondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rajon Rondo.png"; sourceTree = "<group>"; };
+		DCFEEFAA15D1CEB8003CF796 /* Rudy Gay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rudy Gay.png"; sourceTree = "<group>"; };
+		DCFEEFAB15D1CEB8003CF796 /* Russell Westbrook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Russell Westbrook.png"; sourceTree = "<group>"; };
+		DCFEEFAC15D1CEB8003CF796 /* Stephen Curry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stephen Curry.png"; sourceTree = "<group>"; };
+		DCFEEFAD15D1CEB8003CF796 /* Tim Duncan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tim Duncan.png"; sourceTree = "<group>"; };
+		DCFEEFAE15D1CEB8003CF796 /* Tony Parker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tony Parker.png"; sourceTree = "<group>"; };
+		DCFEEFB015D1CEB8003CF796 /* Aaron Rodgers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Aaron Rodgers.png"; sourceTree = "<group>"; };
+		DCFEEFB115D1CEB8003CF796 /* Adrian Peterson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Adrian Peterson.png"; sourceTree = "<group>"; };
+		DCFEEFB215D1CEB8003CF796 /* Andrew Luck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Andrew Luck.png"; sourceTree = "<group>"; };
+		DCFEEFB315D1CEB8003CF796 /* Arian Foster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arian Foster.png"; sourceTree = "<group>"; };
+		DCFEEFB415D1CEB8003CF796 /* Brian Urlacher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brian Urlacher.png"; sourceTree = "<group>"; };
+		DCFEEFB515D1CEB8003CF796 /* Calvin Johnson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Calvin Johnson.png"; sourceTree = "<group>"; };
+		DCFEEFB615D1CEB8003CF796 /* Cam Newton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cam Newton.png"; sourceTree = "<group>"; };
+		DCFEEFB715D1CEB8003CF796 /* Chad Ochocinco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chad Ochocinco.png"; sourceTree = "<group>"; };
+		DCFEEFB815D1CEB8003CF796 /* Clay Matthews.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Clay Matthews.png"; sourceTree = "<group>"; };
+		DCFEEFB915D1CEB8003CF796 /* Darren McFadden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Darren McFadden.png"; sourceTree = "<group>"; };
+		DCFEEFBA15D1CEB8003CF796 /* DeMarcus Ware.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DeMarcus Ware.png"; sourceTree = "<group>"; };
+		DCFEEFBB15D1CEB8003CF796 /* DeSean Jackson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DeSean Jackson.png"; sourceTree = "<group>"; };
+		DCFEEFBC15D1CEB8003CF796 /* Drew Brees.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Drew Brees.png"; sourceTree = "<group>"; };
+		DCFEEFBD15D1CEB8003CF796 /* Eli Manning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Eli Manning.png"; sourceTree = "<group>"; };
+		DCFEEFBE15D1CEB8003CF796 /* Larry Fitzgerald.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Larry Fitzgerald.png"; sourceTree = "<group>"; };
+		DCFEEFBF15D1CEB8003CF796 /* Mario Williams.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mario Williams.png"; sourceTree = "<group>"; };
+		DCFEEFC015D1CEB8003CF796 /* Maurice Jones-Drew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Maurice Jones-Drew.png"; sourceTree = "<group>"; };
+		DCFEEFC115D1CEB8003CF796 /* Michael Vick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Michael Vick.png"; sourceTree = "<group>"; };
+		DCFEEFC215D1CEB8003CF796 /* Miles Austin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Miles Austin.png"; sourceTree = "<group>"; };
+		DCFEEFC315D1CEB8003CF796 /* Ndamukong Suh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ndamukong Suh.png"; sourceTree = "<group>"; };
+		DCFEEFC415D1CEB8003CF796 /* Patrick Willis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Patrick Willis.png"; sourceTree = "<group>"; };
+		DCFEEFC515D1CEB8003CF796 /* Peyton Manning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Peyton Manning.png"; sourceTree = "<group>"; };
+		DCFEEFC615D1CEB8003CF796 /* Ray Lewis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ray Lewis.png"; sourceTree = "<group>"; };
+		DCFEEFC715D1CEB8003CF796 /* Rob Gronkowski.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rob Gronkowski.png"; sourceTree = "<group>"; };
+		DCFEEFC815D1CEB8003CF796 /* Robert Griffin III.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Robert Griffin III.png"; sourceTree = "<group>"; };
+		DCFEEFC915D1CEB8003CF796 /* Tim Tebow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tim Tebow.png"; sourceTree = "<group>"; };
+		DCFEEFCA15D1CEB8003CF796 /* Tom Brady.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tom Brady.png"; sourceTree = "<group>"; };
+		DCFEEFCB15D1CEB8003CF796 /* Tony Romo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tony Romo.png"; sourceTree = "<group>"; };
+		DCFEEFCC15D1CEB8003CF796 /* Troy Polamalu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Troy Polamalu.png"; sourceTree = "<group>"; };
+		DCFEEFCD15D1CEB8003CF796 /* Victor Cruz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Victor Cruz.png"; sourceTree = "<group>"; };
+		DCFEEFCF15D1CEB8003CF796 /* Andrew Bynum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Andrew Bynum.png"; sourceTree = "<group>"; };
+		DCFEEFD015D1CEB8003CF796 /* Anthony Davis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Anthony Davis.png"; sourceTree = "<group>"; };
+		DCFEEFD115D1CEB8003CF796 /* Baron Davis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Baron Davis.png"; sourceTree = "<group>"; };
+		DCFEEFD215D1CEB8003CF796 /* Brandon Jennings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brandon Jennings.png"; sourceTree = "<group>"; };
+		DCFEEFD315D1CEB8003CF796 /* Carlos Boozer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Carlos Boozer.png"; sourceTree = "<group>"; };
+		DCFEEFD415D1CEB8003CF796 /* Danny Granger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Danny Granger.png"; sourceTree = "<group>"; };
+		DCFEEFD515D1CEB8003CF796 /* DeMarcus Cousins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DeMarcus Cousins.png"; sourceTree = "<group>"; };
+		DCFEEFD615D1CEB8003CF796 /* J. J. Redick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "J. J. Redick.png"; sourceTree = "<group>"; };
+		DCFEEFD715D1CEB8003CF796 /* Jason Kidd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jason Kidd.png"; sourceTree = "<group>"; };
+		DCFEEFD815D1CEB8003CF796 /* Jeremy Lin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jeremy Lin.png"; sourceTree = "<group>"; };
+		DCFEEFD915D1CEB8003CF796 /* Joakim Noah.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Joakim Noah.png"; sourceTree = "<group>"; };
+		DCFEEFDA15D1CEB8003CF796 /* Joe Johnson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Joe Johnson.png"; sourceTree = "<group>"; };
+		DCFEEFDB15D1CEB8003CF796 /* Kemba Walker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kemba Walker.png"; sourceTree = "<group>"; };
+		DCFEEFDC15D1CEB8003CF796 /* Kirk Hinrich.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kirk Hinrich.png"; sourceTree = "<group>"; };
+		DCFEEFDD15D1CEB8003CF796 /* Kris Humphries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kris Humphries.png"; sourceTree = "<group>"; };
+		DCFEEFDE15D1CEB8003CF796 /* Luol Deng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Luol Deng.png"; sourceTree = "<group>"; };
+		DCFEEFDF15D1CEB8003CF796 /* Manu Ginobili.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Manu Ginobili.png"; sourceTree = "<group>"; };
+		DCFEEFE015D1CEB8003CF796 /* Marc Gasol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Marc Gasol.png"; sourceTree = "<group>"; };
+		DCFEEFE115D1CEB8003CF796 /* Metta World Peace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Metta World Peace.png"; sourceTree = "<group>"; };
+		DCFEEFE215D1CEB8003CF796 /* Monta Ellis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Monta Ellis.png"; sourceTree = "<group>"; };
+		DCFEEFE315D1CEB8003CF796 /* Ray Allen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ray Allen.png"; sourceTree = "<group>"; };
+		DCFEEFE415D1CEB8003CF796 /* Ricky Rubio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ricky Rubio.png"; sourceTree = "<group>"; };
+		DCFEEFE515D1CEB8003CF796 /* Roy Hibbert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Roy Hibbert.png"; sourceTree = "<group>"; };
+		DCFEEFE615D1CEB8003CF796 /* Serge Ibaka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Serge Ibaka.png"; sourceTree = "<group>"; };
+		DCFEEFE715D1CEB8003CF796 /* Shawn Marion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shawn Marion.png"; sourceTree = "<group>"; };
+		DCFEEFE915D1CEB8003CF796 /* Tayshaun Prince.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tayshaun Prince.png"; sourceTree = "<group>"; };
+		DCFEEFEA15D1CEB8003CF796 /* Tracy McGrady.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tracy McGrady.png"; sourceTree = "<group>"; };
+		DCFEEFEB15D1CEB8003CF796 /* Tyson Chandler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tyson Chandler.png"; sourceTree = "<group>"; };
+		DCFEEFEC15D1CEB8003CF796 /* Vince Carter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vince Carter.png"; sourceTree = "<group>"; };
+		DCFEEFEE15D1CEB8003CF796 /* A. J. Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "A. J. Green.png"; sourceTree = "<group>"; };
+		DCFEEFEF15D1CEB8003CF796 /* Ben Roethlisberger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ben Roethlisberger.png"; sourceTree = "<group>"; };
+		DCFEEFF015D1CEB8003CF796 /* Brandon Marshall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brandon Marshall.png"; sourceTree = "<group>"; };
+		DCFEEFF115D1CEB8003CF796 /* Carl Nicks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Carl Nicks.png"; sourceTree = "<group>"; };
+		DCFEEFF215D1CEB8003CF796 /* Champ Bailey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Champ Bailey.png"; sourceTree = "<group>"; };
+		DCFEEFF315D1CEB8003CF796 /* Charles Woodson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Charles Woodson.png"; sourceTree = "<group>"; };
+		DCFEEFF415D1CEB8003CF796 /* D'Brickashaw Ferguson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "D'Brickashaw Ferguson.png"; sourceTree = "<group>"; };
+		DCFEEFF515D1CEB8003CF796 /* Darrelle Revis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Darrelle Revis.png"; sourceTree = "<group>"; };
+		DCFEEFF615D1CEB8003CF796 /* Dez Bryant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dez Bryant.png"; sourceTree = "<group>"; };
+		DCFEEFF715D1CEB8003CF796 /* Dwight Freeney.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dwight Freeney.png"; sourceTree = "<group>"; };
+		DCFEEFF815D1CEB8003CF796 /* Frank Gore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Frank Gore.png"; sourceTree = "<group>"; };
+		DCFEEFF915D1CEB8003CF796 /* Greg Jennings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Greg Jennings.png"; sourceTree = "<group>"; };
+		DCFEEFFA15D1CEB8003CF796 /* James Harrison.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "James Harrison.png"; sourceTree = "<group>"; };
+		DCFEEFFB15D1CEB8003CF796 /* Jason Peters.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jason Peters.png"; sourceTree = "<group>"; };
+		DCFEEFFC15D1CEB8003CF796 /* Jason Pierre-Paul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jason Pierre-Paul.png"; sourceTree = "<group>"; };
+		DCFEEFFD15D1CEB8003CF796 /* Jimmy Graham.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jimmy Graham.png"; sourceTree = "<group>"; };
+		DCFEEFFE15D1CEB8003CF796 /* LeSean McCoy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LeSean McCoy.png"; sourceTree = "<group>"; };
+		DCFEEFFF15D1CEB8003CF796 /* Marshal Yanda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Marshal Yanda.png"; sourceTree = "<group>"; };
+		DCFEF00015D1CEB8003CF796 /* Marshawn Lynch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Marshawn Lynch.png"; sourceTree = "<group>"; };
+		DCFEF00115D1CEB8003CF796 /* Matt Forte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Matt Forte.png"; sourceTree = "<group>"; };
+		DCFEF00215D1CEB8003CF796 /* Mike Wallace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mike Wallace.png"; sourceTree = "<group>"; };
+		DCFEF00315D1CEB8003CF796 /* Philip Rivers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Philip Rivers.png"; sourceTree = "<group>"; };
+		DCFEF00415D1CEB8003CF796 /* Ray Rice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ray Rice.png"; sourceTree = "<group>"; };
+		DCFEF00515D1CEB8003CF796 /* Roddy White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Roddy White.png"; sourceTree = "<group>"; };
+		DCFEF00615D1CEB8003CF796 /* Ryan Kalil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ryan Kalil.png"; sourceTree = "<group>"; };
+		DCFEF00715D1CEB8003CF796 /* Ryan Matthews.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ryan Matthews.png"; sourceTree = "<group>"; };
+		DCFEF00815D1CEB8003CF796 /* Steve Smith.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Steve Smith.png"; sourceTree = "<group>"; };
+		DCFEF00915D1CEB8003CF796 /* Terrell Suggs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Terrell Suggs.png"; sourceTree = "<group>"; };
+		DCFEF00A15D1CEB8003CF796 /* Von Miller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Von Miller.png"; sourceTree = "<group>"; };
+		DCFEF00B15D1CEB8003CF796 /* Wes Welker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wes Welker.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC53FFC115BA2EE0007B5EC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC84BC96160815120055B21C /* MediaPlayer.framework in Frameworks */,
+				DC60672715E1EF6900BB20C1 /* StoreKit.framework in Frameworks */,
+				DCF5B9E415DEF796008CABDA /* iAd.framework in Frameworks */,
+				DCB3A69115D753AE00E440F9 /* AVFoundation.framework in Frameworks */,
+				DC53000B15BA4E3C007B5EC9 /* libsqlite3.dylib in Frameworks */,
+				DC53FFC915BA2EE0007B5EC9 /* UIKit.framework in Frameworks */,
+				DC53FFCB15BA2EE0007B5EC9 /* Foundation.framework in Frameworks */,
+				DC53FFCD15BA2EE0007B5EC9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC53FFE115BA2EE0007B5EC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0FD7C5160B906B00610D76 /* MediaPlayer.framework in Frameworks */,
+				DCE7C21015E08C8900FFF814 /* iAd.framework in Frameworks */,
+				DCC1A1F315DD410C00F745CA /* libsqlite3.dylib in Frameworks */,
+				DCC1A1F215DD40EC00F745CA /* CoreGraphics.framework in Frameworks */,
+				DCC1A1F115DD40E800F745CA /* AVFoundation.framework in Frameworks */,
+				DC53FFE715BA2EE0007B5EC9 /* SenTestingKit.framework in Frameworks */,
+				DC53FFE815BA2EE0007B5EC9 /* UIKit.framework in Frameworks */,
+				DC53FFE915BA2EE0007B5EC9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC31914A160C412A001C8333 /* 3NFL */ = {
+			isa = PBXGroup;
+			children = (
+				DC31914B160C412A001C8333 /* Aaron Hernandez.png */,
+				DC31914C160C412A001C8333 /* Antonio Gates.png */,
+				DC31914D160C412A001C8333 /* Brian Cushing.png */,
+				DC31914E160C412A001C8333 /* Chris Johnson.png */,
+				DC31914F160C412A001C8333 /* Darren Sproles.png */,
+				DC319150160C412A001C8333 /* DeMarco Murray.png */,
+				DC319151160C412A001C8333 /* Dwayne Bowe.png */,
+				DC319152160C412A001C8333 /* Ed Reed.png */,
+				DC319153160C412A001C8333 /* Hakeem Nicks.png */,
+				DC319154160C412A001C8333 /* Jamaal Charles.png */,
+				DC319155160C412A001C8333 /* Jared Allen.png */,
+				DC319156160C412A001C8333 /* Jay Cutler.png */,
+				DC319157160C412A001C8333 /* Joe Flacco.png */,
+				DC319158160C412A001C8333 /* Jordy Nelson.png */,
+				DC319159160C412A001C8333 /* Julio Jones.png */,
+				DC31915A160C412A001C8333 /* Justin Tuck.png */,
+				DC31915B160C412A001C8333 /* London Fletcher.png */,
+				DC31915C160C412A001C8333 /* Mark Sanchez.png */,
+				DC31915D160C412A001C8333 /* Matt Ryan.png */,
+				DC31915E160C412A001C8333 /* Matt Schaub.png */,
+				DC31915F160C412A001C8333 /* Matthew Stafford.png */,
+				DC319160160C412A001C8333 /* Nnamdi Asomugha.png */,
+				DC319161160C412A001C8333 /* Peyton Hillis.png */,
+				DC319162160C412A001C8333 /* Randy Moss.png */,
+				DC319163160C412A001C8333 /* Reggie Bush.png */,
+				DC319164160C412A001C8333 /* Reggie Wayne.png */,
+				DC319165160C412A001C8333 /* Steve Johnson.png */,
+				DC319166160C412A001C8333 /* Steven Jackson.png */,
+				DC319167160C412A001C8333 /* Trent Richardson.png */,
+				DC319168160C412A001C8333 /* Vincent Jackson.png */,
+			);
+			path = 3NFL;
+			sourceTree = "<group>";
+		};
+		DC319169160C412A001C8333 /* 4NFL */ = {
+			isa = PBXGroup;
+			children = (
+				DC31916A160C412A001C8333 /* Alex Smith.png */,
+				DC31916B160C412A001C8333 /* Andy Dalton.png */,
+				DC31916C160C412A001C8333 /* Anquan Boldin.png */,
+				DC31916D160C412A001C8333 /* Antonio Brown.png */,
+				DC31916E160C412A001C8333 /* Bernard Pollard.png */,
+				DC31916F160C412A001C8333 /* Brandon Lloyd.png */,
+				DC319170160C412A001C8333 /* Brandon Weeden.png */,
+				DC319171160C412A001C8333 /* Brian Orakpo.png */,
+				DC319172160C412A001C8333 /* Cameron Wake.png */,
+				DC319173160C412A001C8333 /* Carson Palmer.png */,
+				DC319174160C412A001C8333 /* Earl Thomas.png */,
+				DC319175160C412A001C8333 /* Eric Berry.png */,
+				DC319176160C412A001C8333 /* Eric Decker.png */,
+				DC319177160C412A001C8333 /* Fred Jackson.png */,
+				DC319178160C412A001C8333 /* Haloti Ngata.png */,
+				DC319179160C412A001C8333 /* Ike Taylor.png */,
+				DC31917A160C412A001C8333 /* J. J. Watt.png */,
+				DC31917B160C412A001C8333 /* Jason Witten.png */,
+				DC31917C160C412A001C8333 /* Jeremy Maclin.png */,
+				DC31917D160C412A001C8333 /* Johnathan Joseph.png */,
+				DC31917E160C412A001C8333 /* Mark Barron.png */,
+				DC31917F160C412A001C8333 /* Marques Colston.png */,
+				DC319180160C412A001C8333 /* Michael Turner.png */,
+				DC319181160C412A001C8333 /* Percy Harvin.png */,
+				DC319182160C412A001C8333 /* Ryan Fitzpatrick.png */,
+				DC319183160C412A001C8333 /* Ryan Tannehill.png */,
+				DC319184160C412A001C8333 /* Sam Bradford.png */,
+				DC319185160C412A001C8333 /* Santonio Holmes.png */,
+				DC319186160C412A001C8333 /* Vernon Davis.png */,
+				DC319187160C412A001C8333 /* Vince Wilfork.png */,
+			);
+			path = 4NFL;
+			sourceTree = "<group>";
+		};
+		DC53FFB915BA2EE0007B5EC9 = {
+			isa = PBXGroup;
+			children = (
+				DC4F4A7D160017C100452273 /* 114_114.png */,
+				DC4F4A7A160017BE00452273 /* 57_57.png */,
+				DC60672415E1DB5C00BB20C1 /* Default.png */,
+				DC60672015E1DB2900BB20C1 /* Default@2x.png */,
+				DC84BC95160815110055B21C /* MediaPlayer.framework */,
+				DC60672615E1EF6900BB20C1 /* StoreKit.framework */,
+				DCF5B9E315DEF796008CABDA /* iAd.framework */,
+				DC53FFCE15BA2EE0007B5EC9 /* JerseyGenius */,
+				DC53FFEC15BA2EE0007B5EC9 /* JerseyGeniusTests */,
+				DC53FFC715BA2EE0007B5EC9 /* Frameworks */,
+				DC53FFC515BA2EE0007B5EC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC53FFC515BA2EE0007B5EC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC53FFC415BA2EE0007B5EC9 /* JerseyGenius.app */,
+				DC53FFE515BA2EE0007B5EC9 /* JerseyGeniusTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC53FFC715BA2EE0007B5EC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCB3A69015D753AE00E440F9 /* AVFoundation.framework */,
+				DC53000A15BA4E3C007B5EC9 /* libsqlite3.dylib */,
+				DC53FFC815BA2EE0007B5EC9 /* UIKit.framework */,
+				DC53FFCA15BA2EE0007B5EC9 /* Foundation.framework */,
+				DC53FFCC15BA2EE0007B5EC9 /* CoreGraphics.framework */,
+				DC53FFE615BA2EE0007B5EC9 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC53FFCE15BA2EE0007B5EC9 /* JerseyGenius */ = {
+			isa = PBXGroup;
+			children = (
+				DC53FFDA15BA2EE0007B5EC9 /* MainStoryboard.storyboard */,
+				DCB3A85D15D4BE7C00267237 /* MTPopupWindow */,
+				DC53FFD715BA2EE0007B5EC9 /* AppDelegate.h */,
+				DC53FFD815BA2EE0007B5EC9 /* AppDelegate.m */,
+				DC06D33B15DE14C5003AE31A /* ScrollingAppDelegate.h */,
+				DC06D33C15DE14C5003AE31A /* ScrollingAppDelegate.m */,
+				DC53FFFD15BA313A007B5EC9 /* Jersey.h */,
+				DC53FFFE15BA313A007B5EC9 /* Jersey.m */,
+				DC53000015BA317C007B5EC9 /* Level.h */,
+				DC53000115BA317C007B5EC9 /* Level.m */,
+				DC00279015DA304200591BB1 /* Player.h */,
+				DC00279115DA304200591BB1 /* Player.m */,
+				DC53FFDD15BA2EE0007B5EC9 /* ViewController.h */,
+				DC53FFDE15BA2EE0007B5EC9 /* ViewController.m */,
+				DC2EAFD615D37C8500B293ED /* MenuViewController.h */,
+				DC2EAFD715D37C8500B293ED /* MenuViewController.m */,
+				DC85809B15C735010034B44F /* LevelViewController.h */,
+				DC85809C15C735010034B44F /* LevelViewController.m */,
+				DCBDBD6415D59E2200273515 /* Media */,
+				DCFCE36B15D1F80800FB0E75 /* Level Images */,
+				DC53FFCF15BA2EE0007B5EC9 /* Supporting Files */,
+			);
+			path = JerseyGenius;
+			sourceTree = "<group>";
+		};
+		DC53FFCF15BA2EE0007B5EC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC6BC77115BDC4790006EC02 /* DB_Jerseys.sqlite */,
+				DC53FFD015BA2EE0007B5EC9 /* JerseyGenius-Info.plist */,
+				DC53FFD115BA2EE0007B5EC9 /* InfoPlist.strings */,
+				DC53FFD415BA2EE0007B5EC9 /* main.m */,
+				DC53FFD615BA2EE0007B5EC9 /* JerseyGenius-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC53FFEC15BA2EE0007B5EC9 /* JerseyGeniusTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC53FFF215BA2EE0007B5EC9 /* JerseyGeniusTests.h */,
+				DC53FFF315BA2EE0007B5EC9 /* JerseyGeniusTests.m */,
+				DC53FFED15BA2EE0007B5EC9 /* Supporting Files */,
+			);
+			path = JerseyGeniusTests;
+			sourceTree = "<group>";
+		};
+		DC53FFED15BA2EE0007B5EC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC53FFEE15BA2EE0007B5EC9 /* JerseyGeniusTests-Info.plist */,
+				DC53FFEF15BA2EE0007B5EC9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCB22DF415E16CC0005A7850 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Icons;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		DCB3A85D15D4BE7C00267237 /* MTPopupWindow */ = {
+			isa = PBXGroup;
+			children = (
+				DC4F4A8616002DC100452273 /* MTBlankPopupWindow.h */,
+				DC4F4A8716002DC100452273 /* MTBlankPopupWindow.m */,
+				DC319D6E15DC8E8800E4FD65 /* MTMiniPopupWindow.h */,
+				DC319D6F15DC8E8800E4FD65 /* MTMiniPopupWindow.m */,
+				DCBDBD5715D59C3000273515 /* MTPopupWindow.h */,
+				DCBDBD5815D59C3000273515 /* MTPopupWindow.m */,
+			);
+			name = MTPopupWindow;
+			sourceTree = "<group>";
+		};
+		DCBDBD6415D59E2200273515 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				DCB22DF415E16CC0005A7850 /* Icons */,
+				DCC1A1F615DD419000F745CA /* Retina Backgrounds */,
+				DCC1A1F815DD41CE00F745CA /* Retina Buttons */,
+				DCC1A1F415DD416000F745CA /* Retina Images */,
+				DCC1A1F715DD41BB00F745CA /* Non-Retina Backgrounds */,
+				DCC1A1F915DD41DA00F745CA /* Non-Retina Buttons */,
+				DCC1A1F515DD417000F745CA /* Non-Retina Images */,
+				DCB3A69315D7542D00E440F9 /* correct.wav */,
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
+		DCC1A1F415DD416000F745CA /* Retina Images */ = {
+			isa = PBXGroup;
+			children = (
+				DC4F4A95160036AE00452273 /* popupTips@2x.png */,
+				DC4F4A731600019700452273 /* Soon@2x.png */,
+				DC6066FC15E1CA0300BB20C1 /* info@2x.png */,
+				DCF5B9F715DF3186008CABDA /* lock@2x.png */,
+				DCBDBD5015D59C1800273515 /* popupCloseBtn@2x.png */,
+				DC05B12C15DB995C00CB8D86 /* topbarName@2x.png */,
+				DC05B11715DB74F400CB8D86 /* mainImage@2x.png */,
+				DC38967815DB60B9002E7EA6 /* blank@2x.png */,
+				DCBDBD6115D59E1F00273515 /* yellowcircle@2x.png */,
+				DCBDBD4B15D59BB500273515 /* greencheck@2x.png */,
+				DCBDBD4C15D59BB600273515 /* redcross@2x.png */,
+			);
+			name = "Retina Images";
+			sourceTree = "<group>";
+		};
+		DCC1A1F515DD417000F745CA /* Non-Retina Images */ = {
+			isa = PBXGroup;
+			children = (
+				DC6066FB15E1CA0300BB20C1 /* info.png */,
+				DCF5B9F615DF3186008CABDA /* lock.png */,
+				DCBDBD4F15D59C1800273515 /* popupCloseBtn.png */,
+				DC05B12B15DB995C00CB8D86 /* topbarName.png */,
+				DC38967615DB6043002E7EA6 /* blank.png */,
+				DCBDBD6015D59E1F00273515 /* yellowcircle.png */,
+				DCBDBD4715D59BA700273515 /* greencheck.png */,
+				DCBDBD4815D59BA700273515 /* redcross.png */,
+			);
+			name = "Non-Retina Images";
+			sourceTree = "<group>";
+		};
+		DCC1A1F615DD419000F745CA /* Retina Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				DC60671C15E1DA8E00BB20C1 /* sportsbgfire@2x.png */,
+				DCC1A1FF15DD63DF00F745CA /* percentBackground120@2x.png */,
+				DC319D7115DC8E8800E4FD65 /* popupWindowBackSmall@2x.png */,
+				DCBDBD5215D59C1800273515 /* popupWindowBack@2x.png */,
+				DC05B12315DB941700CB8D86 /* hintsBackground@2x.png */,
+				DC05B12515DB941700CB8D86 /* pointsBackground@2x.png */,
+				DC05B11A15DB7E0100CB8D86 /* percentBackground@2x.png */,
+				DC3EEE0F15DB3328002AD326 /* sportsbg@2x.png */,
+				DC3EEE0615DB2173002AD326 /* topbar@2x.png */,
+			);
+			name = "Retina Backgrounds";
+			sourceTree = "<group>";
+		};
+		DCC1A1F715DD41BB00F745CA /* Non-Retina Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				DCC1A1FE15DD63DF00F745CA /* percentBackground120.png */,
+				DC319D7015DC8E8800E4FD65 /* popupWindowBackSmall.png */,
+				DCBDBD5115D59C1800273515 /* popupWindowBack.png */,
+				DC05B12215DB941700CB8D86 /* hintsBackground.png */,
+				DC05B12415DB941700CB8D86 /* pointsBackground.png */,
+				DC05B11C15DB7E3200CB8D86 /* percentBackground.png */,
+				DC3EEE0E15DB3328002AD326 /* sportsbg.png */,
+				DC3EEE0515DB2173002AD326 /* topbar.png */,
+			);
+			name = "Non-Retina Backgrounds";
+			sourceTree = "<group>";
+		};
+		DCC1A1F815DD41CE00F745CA /* Retina Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				DC84BC9816081A3B0055B21C /* checkmark@2x.png */,
+				DC84BC8F160805700055B21C /* newHint@2x.png */,
+				DC4F4A801600283D00452273 /* question@2x.png */,
+				DC60670F15E1D09600BB20C1 /* buyhints@2x.png */,
+				DC60670915E1CE2D00BB20C1 /* back@2x.png */,
+				DCC1A20415DD7D2600F745CA /* reset@2x.png */,
+				DCC1A20615DD7D2600F745CA /* soundOff@2x.png */,
+				DCC1A20815DD7D2600F745CA /* soundOn@2x.png */,
+				DC319D7A15DC966F00E4FD65 /* backtogame@2x.png */,
+				DC57B93A15DC05390051D778 /* guess@2x.png */,
+				DC57B93C15DC05390051D778 /* hints@2x.png */,
+				DC57B92E15DC015D0051D778 /* checkguess@2x.png */,
+				DC57B93015DC015D0051D778 /* showhint@2x.png */,
+				DC57B92615DBFED10051D778 /* other@2x.png */,
+				DC57B92815DBFED10051D778 /* play@2x.png */,
+				DC57B91D15DBF7430051D778 /* home@2x.png */,
+				DC57B91F15DBF7430051D778 /* levels@2x.png */,
+			);
+			name = "Retina Buttons";
+			sourceTree = "<group>";
+		};
+		DCC1A1F915DD41DA00F745CA /* Non-Retina Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				DC84BC9716081A3B0055B21C /* checkmark.png */,
+				DC84BC8E160805700055B21C /* newHint.png */,
+				DC4F4A7F1600283D00452273 /* question.png */,
+				DC60670E15E1D09600BB20C1 /* buyhints.png */,
+				DC60670815E1CE2D00BB20C1 /* back.png */,
+				DCC1A20315DD7D2600F745CA /* reset.png */,
+				DCC1A20515DD7D2600F745CA /* soundOff.png */,
+				DCC1A20715DD7D2600F745CA /* soundOn.png */,
+				DC319D7915DC966F00E4FD65 /* backtogame.png */,
+				DC57B93915DC05390051D778 /* guess.png */,
+				DC57B93B15DC05390051D778 /* hints.png */,
+				DC57B92D15DC015D0051D778 /* checkguess.png */,
+				DC57B92F15DC015D0051D778 /* showhint.png */,
+				DC57B92515DBFED10051D778 /* other.png */,
+				DC57B92715DBFED10051D778 /* play.png */,
+				DC57B91C15DBF7430051D778 /* home.png */,
+				DC57B91E15DBF7430051D778 /* levels.png */,
+			);
+			name = "Non-Retina Buttons";
+			sourceTree = "<group>";
+		};
+		DCFCE36B15D1F80800FB0E75 /* Level Images */ = {
+			isa = PBXGroup;
+			children = (
+				DC319169160C412A001C8333 /* 4NFL */,
+				DCFEEFCE15D1CEB8003CF796 /* 2NBA */,
+				DCFEEF9015D1CEB7003CF796 /* 1NBA */,
+				DC31914A160C412A001C8333 /* 3NFL */,
+				DC319145160C411C001C8333 /* 3NFL@2x.png */,
+				DC319146160C411C001C8333 /* 4NFL@2x.png */,
+				DC3EEE1B15DB4C3E002AD326 /* 1NBA@2x.png */,
+				DC3EEE1C15DB4C3E002AD326 /* 1NFL@2x.png */,
+				DC3EEE1D15DB4C3E002AD326 /* 2NBA@2x.png */,
+				DC3EEE1E15DB4C3E002AD326 /* 2NFL@2x.png */,
+				DCFEEFAF15D1CEB8003CF796 /* 1NFL */,
+				DCFEEFED15D1CEB8003CF796 /* 2NFL */,
+			);
+			name = "Level Images";
+			sourceTree = "<group>";
+		};
+		DCFEEF9015D1CEB7003CF796 /* 1NBA */ = {
+			isa = PBXGroup;
+			children = (
+				DCFEEF9115D1CEB8003CF796 /* Al Jefferson.png */,
+				DCFEEF9215D1CEB8003CF796 /* Amar'e Stoudemire.png */,
+				DCFEEF9415D1CEB8003CF796 /* Blake Griffin.png */,
+				DCFEEF9515D1CEB8003CF796 /* Carmelo Anthony.png */,
+				DCFEEF9615D1CEB8003CF796 /* Chris Bosh.png */,
+				DCFEEF9715D1CEB8003CF796 /* Chris Paul.png */,
+				DCFEEF9815D1CEB8003CF796 /* David Lee.png */,
+				DCFEEF9915D1CEB8003CF796 /* Deron Williams.png */,
+				DCFEEF9A15D1CEB8003CF796 /* Derrick Rose.png */,
+				DCFEEF9B15D1CEB8003CF796 /* Dirk Nowitzki.png */,
+				DCFEEF9C15D1CEB8003CF796 /* Dwayne Wade.png */,
+				DCFEEF9D15D1CEB8003CF796 /* Dwight Howard.png */,
+				DCFEEF9E15D1CEB8003CF796 /* James Harden.png */,
+				DCFEEF9F15D1CEB8003CF796 /* John Wall.png */,
+				DCFEEFA015D1CEB8003CF796 /* Josh Smith.png */,
+				DCFEEFA115D1CEB8003CF796 /* Kevin Durant.png */,
+				DCFEEFA215D1CEB8003CF796 /* Kevin Garnett.png */,
+				DCFEEFA315D1CEB8003CF796 /* Kevin Love.png */,
+				DCFEEFA415D1CEB8003CF796 /* Kobe Bryant.png */,
+				DCFEEFA515D1CEB8003CF796 /* LaMarcus Aldridge.png */,
+				DCFEEFA615D1CEB8003CF796 /* Lebron James.png */,
+				DCFEEFA715D1CEB8003CF796 /* Pau Gasol.png */,
+				DCFEEFA815D1CEB8003CF796 /* Paul Pierce.png */,
+				DCFEEFA915D1CEB8003CF796 /* Rajon Rondo.png */,
+				DCFEEFAA15D1CEB8003CF796 /* Rudy Gay.png */,
+				DCFEEFAB15D1CEB8003CF796 /* Russell Westbrook.png */,
+				DCFEEFAC15D1CEB8003CF796 /* Stephen Curry.png */,
+				DC00278615DA0C8700591BB1 /* Steve Nash.png */,
+				DCFEEFAD15D1CEB8003CF796 /* Tim Duncan.png */,
+				DCFEEFAE15D1CEB8003CF796 /* Tony Parker.png */,
+			);
+			path = 1NBA;
+			sourceTree = "<group>";
+		};
+		DCFEEFAF15D1CEB8003CF796 /* 1NFL */ = {
+			isa = PBXGroup;
+			children = (
+				DCFEEFB015D1CEB8003CF796 /* Aaron Rodgers.png */,
+				DCFEEFB115D1CEB8003CF796 /* Adrian Peterson.png */,
+				DCFEEFB215D1CEB8003CF796 /* Andrew Luck.png */,
+				DCFEEFB315D1CEB8003CF796 /* Arian Foster.png */,
+				DCFEEFB415D1CEB8003CF796 /* Brian Urlacher.png */,
+				DCFEEFB515D1CEB8003CF796 /* Calvin Johnson.png */,
+				DCFEEFB615D1CEB8003CF796 /* Cam Newton.png */,
+				DCFEEFB715D1CEB8003CF796 /* Chad Ochocinco.png */,
+				DCFEEFB815D1CEB8003CF796 /* Clay Matthews.png */,
+				DCFEEFB915D1CEB8003CF796 /* Darren McFadden.png */,
+				DCFEEFBA15D1CEB8003CF796 /* DeMarcus Ware.png */,
+				DCFEEFBB15D1CEB8003CF796 /* DeSean Jackson.png */,
+				DCFEEFBC15D1CEB8003CF796 /* Drew Brees.png */,
+				DCFEEFBD15D1CEB8003CF796 /* Eli Manning.png */,
+				DCFEEFBE15D1CEB8003CF796 /* Larry Fitzgerald.png */,
+				DCFEEFBF15D1CEB8003CF796 /* Mario Williams.png */,
+				DCFEEFC015D1CEB8003CF796 /* Maurice Jones-Drew.png */,
+				DCFEEFC115D1CEB8003CF796 /* Michael Vick.png */,
+				DCFEEFC215D1CEB8003CF796 /* Miles Austin.png */,
+				DCFEEFC315D1CEB8003CF796 /* Ndamukong Suh.png */,
+				DCFEEFC415D1CEB8003CF796 /* Patrick Willis.png */,
+				DCFEEFC515D1CEB8003CF796 /* Peyton Manning.png */,
+				DCFEEFC615D1CEB8003CF796 /* Ray Lewis.png */,
+				DCFEEFC715D1CEB8003CF796 /* Rob Gronkowski.png */,
+				DCFEEFC815D1CEB8003CF796 /* Robert Griffin III.png */,
+				DCFEEFC915D1CEB8003CF796 /* Tim Tebow.png */,
+				DCFEEFCA15D1CEB8003CF796 /* Tom Brady.png */,
+				DCFEEFCB15D1CEB8003CF796 /* Tony Romo.png */,
+				DCFEEFCC15D1CEB8003CF796 /* Troy Polamalu.png */,
+				DCFEEFCD15D1CEB8003CF796 /* Victor Cruz.png */,
+			);
+			path = 1NFL;
+			sourceTree = "<group>";
+		};
+		DCFEEFCE15D1CEB8003CF796 /* 2NBA */ = {
+			isa = PBXGroup;
+			children = (
+				DCFEEFCF15D1CEB8003CF796 /* Andrew Bynum.png */,
+				DC00278815DA0CA100591BB1 /* Andre Iguodala.png */,
+				DCFEEFD015D1CEB8003CF796 /* Anthony Davis.png */,
+				DCFEEFD115D1CEB8003CF796 /* Baron Davis.png */,
+				DCFEEFD215D1CEB8003CF796 /* Brandon Jennings.png */,
+				DCFEEFD315D1CEB8003CF796 /* Carlos Boozer.png */,
+				DCFEEFD415D1CEB8003CF796 /* Danny Granger.png */,
+				DCFEEFD515D1CEB8003CF796 /* DeMarcus Cousins.png */,
+				DCFEEFD615D1CEB8003CF796 /* J. J. Redick.png */,
+				DCFEEFD715D1CEB8003CF796 /* Jason Kidd.png */,
+				DCFEEFD815D1CEB8003CF796 /* Jeremy Lin.png */,
+				DCFEEFD915D1CEB8003CF796 /* Joakim Noah.png */,
+				DCFEEFDA15D1CEB8003CF796 /* Joe Johnson.png */,
+				DCFEEFDB15D1CEB8003CF796 /* Kemba Walker.png */,
+				DCFEEFDC15D1CEB8003CF796 /* Kirk Hinrich.png */,
+				DCFEEFDD15D1CEB8003CF796 /* Kris Humphries.png */,
+				DCFEEFDE15D1CEB8003CF796 /* Luol Deng.png */,
+				DCFEEFDF15D1CEB8003CF796 /* Manu Ginobili.png */,
+				DCFEEFE015D1CEB8003CF796 /* Marc Gasol.png */,
+				DCFEEFE115D1CEB8003CF796 /* Metta World Peace.png */,
+				DCFEEFE215D1CEB8003CF796 /* Monta Ellis.png */,
+				DCFEEFE315D1CEB8003CF796 /* Ray Allen.png */,
+				DCFEEFE415D1CEB8003CF796 /* Ricky Rubio.png */,
+				DCFEEFE515D1CEB8003CF796 /* Roy Hibbert.png */,
+				DCFEEFE615D1CEB8003CF796 /* Serge Ibaka.png */,
+				DCFEEFE715D1CEB8003CF796 /* Shawn Marion.png */,
+				DCFEEFE915D1CEB8003CF796 /* Tayshaun Prince.png */,
+				DCFEEFEA15D1CEB8003CF796 /* Tracy McGrady.png */,
+				DCFEEFEB15D1CEB8003CF796 /* Tyson Chandler.png */,
+				DCFEEFEC15D1CEB8003CF796 /* Vince Carter.png */,
+			);
+			path = 2NBA;
+			sourceTree = "<group>";
+		};
+		DCFEEFED15D1CEB8003CF796 /* 2NFL */ = {
+			isa = PBXGroup;
+			children = (
+				DCFEEFEE15D1CEB8003CF796 /* A. J. Green.png */,
+				DCFEEFEF15D1CEB8003CF796 /* Ben Roethlisberger.png */,
+				DCFEEFF015D1CEB8003CF796 /* Brandon Marshall.png */,
+				DCFEEFF115D1CEB8003CF796 /* Carl Nicks.png */,
+				DCFEEFF215D1CEB8003CF796 /* Champ Bailey.png */,
+				DCFEEFF315D1CEB8003CF796 /* Charles Woodson.png */,
+				DCFEEFF415D1CEB8003CF796 /* D'Brickashaw Ferguson.png */,
+				DCFEEFF515D1CEB8003CF796 /* Darrelle Revis.png */,
+				DCFEEFF615D1CEB8003CF796 /* Dez Bryant.png */,
+				DCFEEFF715D1CEB8003CF796 /* Dwight Freeney.png */,
+				DCFEEFF815D1CEB8003CF796 /* Frank Gore.png */,
+				DCFEEFF915D1CEB8003CF796 /* Greg Jennings.png */,
+				DCFEEFFA15D1CEB8003CF796 /* James Harrison.png */,
+				DCFEEFFB15D1CEB8003CF796 /* Jason Peters.png */,
+				DCFEEFFC15D1CEB8003CF796 /* Jason Pierre-Paul.png */,
+				DCFEEFFD15D1CEB8003CF796 /* Jimmy Graham.png */,
+				DCFEEFFE15D1CEB8003CF796 /* LeSean McCoy.png */,
+				DCFEEFFF15D1CEB8003CF796 /* Marshal Yanda.png */,
+				DCFEF00015D1CEB8003CF796 /* Marshawn Lynch.png */,
+				DCFEF00115D1CEB8003CF796 /* Matt Forte.png */,
+				DCFEF00215D1CEB8003CF796 /* Mike Wallace.png */,
+				DCFEF00315D1CEB8003CF796 /* Philip Rivers.png */,
+				DCFEF00415D1CEB8003CF796 /* Ray Rice.png */,
+				DCFEF00515D1CEB8003CF796 /* Roddy White.png */,
+				DCFEF00615D1CEB8003CF796 /* Ryan Kalil.png */,
+				DCFEF00715D1CEB8003CF796 /* Ryan Matthews.png */,
+				DCFEF00815D1CEB8003CF796 /* Steve Smith.png */,
+				DCFEF00915D1CEB8003CF796 /* Terrell Suggs.png */,
+				DCFEF00A15D1CEB8003CF796 /* Von Miller.png */,
+				DCFEF00B15D1CEB8003CF796 /* Wes Welker.png */,
+			);
+			path = 2NFL;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC53FFC315BA2EE0007B5EC9 /* JerseyGenius */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC53FFF715BA2EE0007B5EC9 /* Build configuration list for PBXNativeTarget "JerseyGenius" */;
+			buildPhases = (
+				DC53FFC015BA2EE0007B5EC9 /* Sources */,
+				DC53FFC115BA2EE0007B5EC9 /* Frameworks */,
+				DC53FFC215BA2EE0007B5EC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JerseyGenius;
+			productName = JerseyGenius;
+			productReference = DC53FFC415BA2EE0007B5EC9 /* JerseyGenius.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC53FFE415BA2EE0007B5EC9 /* JerseyGeniusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC53FFFA15BA2EE0007B5EC9 /* Build configuration list for PBXNativeTarget "JerseyGeniusTests" */;
+			buildPhases = (
+				DC53FFE015BA2EE0007B5EC9 /* Sources */,
+				DC53FFE115BA2EE0007B5EC9 /* Frameworks */,
+				DC53FFE215BA2EE0007B5EC9 /* Resources */,
+				DC53FFE315BA2EE0007B5EC9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC53FFEB15BA2EE0007B5EC9 /* PBXTargetDependency */,
+			);
+			name = JerseyGeniusTests;
+			productName = JerseyGeniusTests;
+			productReference = DC53FFE515BA2EE0007B5EC9 /* JerseyGeniusTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC53FFBB15BA2EE0007B5EC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = DC53FFBE15BA2EE0007B5EC9 /* Build configuration list for PBXProject "JerseyGenius" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC53FFB915BA2EE0007B5EC9;
+			productRefGroup = DC53FFC515BA2EE0007B5EC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC53FFC315BA2EE0007B5EC9 /* JerseyGenius */,
+				DC53FFE415BA2EE0007B5EC9 /* JerseyGeniusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC53FFC215BA2EE0007B5EC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC53FFD315BA2EE0007B5EC9 /* InfoPlist.strings in Resources */,
+				DC53FFDC15BA2EE0007B5EC9 /* MainStoryboard.storyboard in Resources */,
+				DC6BC77215BDC4790006EC02 /* DB_Jerseys.sqlite in Resources */,
+				DCFEF00C15D1CEB8003CF796 /* Al Jefferson.png in Resources */,
+				DCFEF00D15D1CEB8003CF796 /* Amar'e Stoudemire.png in Resources */,
+				DCFEF00F15D1CEB8003CF796 /* Blake Griffin.png in Resources */,
+				DCFEF01015D1CEB8003CF796 /* Carmelo Anthony.png in Resources */,
+				DCFEF01115D1CEB8003CF796 /* Chris Bosh.png in Resources */,
+				DCFEF01215D1CEB8003CF796 /* Chris Paul.png in Resources */,
+				DCFEF01315D1CEB8003CF796 /* David Lee.png in Resources */,
+				DCFEF01415D1CEB8003CF796 /* Deron Williams.png in Resources */,
+				DCFEF01515D1CEB8003CF796 /* Derrick Rose.png in Resources */,
+				DCFEF01615D1CEB8003CF796 /* Dirk Nowitzki.png in Resources */,
+				DCFEF01715D1CEB8003CF796 /* Dwayne Wade.png in Resources */,
+				DCFEF01815D1CEB8003CF796 /* Dwight Howard.png in Resources */,
+				DCFEF01915D1CEB8003CF796 /* James Harden.png in Resources */,
+				DCFEF01A15D1CEB8003CF796 /* John Wall.png in Resources */,
+				DCFEF01B15D1CEB8003CF796 /* Josh Smith.png in Resources */,
+				DCFEF01C15D1CEB8003CF796 /* Kevin Durant.png in Resources */,
+				DCFEF01D15D1CEB8003CF796 /* Kevin Garnett.png in Resources */,
+				DCFEF01E15D1CEB8003CF796 /* Kevin Love.png in Resources */,
+				DCFEF01F15D1CEB8003CF796 /* Kobe Bryant.png in Resources */,
+				DCFEF02015D1CEB8003CF796 /* LaMarcus Aldridge.png in Resources */,
+				DCFEF02115D1CEB8003CF796 /* Lebron James.png in Resources */,
+				DCFEF02215D1CEB8003CF796 /* Pau Gasol.png in Resources */,
+				DCFEF02315D1CEB8003CF796 /* Paul Pierce.png in Resources */,
+				DCFEF02415D1CEB8003CF796 /* Rajon Rondo.png in Resources */,
+				DCFEF02515D1CEB8003CF796 /* Rudy Gay.png in Resources */,
+				DCFEF02615D1CEB8003CF796 /* Russell Westbrook.png in Resources */,
+				DCFEF02715D1CEB8003CF796 /* Stephen Curry.png in Resources */,
+				DCFEF02815D1CEB8003CF796 /* Tim Duncan.png in Resources */,
+				DCFEF02915D1CEB8003CF796 /* Tony Parker.png in Resources */,
+				DCFEF02A15D1CEB8003CF796 /* Aaron Rodgers.png in Resources */,
+				DCFEF02B15D1CEB8003CF796 /* Adrian Peterson.png in Resources */,
+				DCFEF02C15D1CEB8003CF796 /* Andrew Luck.png in Resources */,
+				DCFEF02D15D1CEB8003CF796 /* Arian Foster.png in Resources */,
+				DCFEF02E15D1CEB8003CF796 /* Brian Urlacher.png in Resources */,
+				DCFEF02F15D1CEB8003CF796 /* Calvin Johnson.png in Resources */,
+				DCFEF03015D1CEB8003CF796 /* Cam Newton.png in Resources */,
+				DCFEF03115D1CEB8003CF796 /* Chad Ochocinco.png in Resources */,
+				DCFEF03215D1CEB8003CF796 /* Clay Matthews.png in Resources */,
+				DCFEF03315D1CEB8003CF796 /* Darren McFadden.png in Resources */,
+				DCFEF03415D1CEB8003CF796 /* DeMarcus Ware.png in Resources */,
+				DCFEF03515D1CEB8003CF796 /* DeSean Jackson.png in Resources */,
+				DCFEF03615D1CEB8003CF796 /* Drew Brees.png in Resources */,
+				DCFEF03715D1CEB8003CF796 /* Eli Manning.png in Resources */,
+				DCFEF03815D1CEB8003CF796 /* Larry Fitzgerald.png in Resources */,
+				DCFEF03915D1CEB8003CF796 /* Mario Williams.png in Resources */,
+				DCFEF03A15D1CEB8003CF796 /* Maurice Jones-Drew.png in Resources */,
+				DCFEF03B15D1CEB8003CF796 /* Michael Vick.png in Resources */,
+				DCFEF03C15D1CEB8003CF796 /* Miles Austin.png in Resources */,
+				DCFEF03D15D1CEB8003CF796 /* Ndamukong Suh.png in Resources */,
+				DCFEF03E15D1CEB8003CF796 /* Patrick Willis.png in Resources */,
+				DCFEF03F15D1CEB8003CF796 /* Peyton Manning.png in Resources */,
+				DCFEF04015D1CEB8003CF796 /* Ray Lewis.png in Resources */,
+				DCFEF04115D1CEB8003CF796 /* Rob Gronkowski.png in Resources */,
+				DCFEF04215D1CEB8003CF796 /* Robert Griffin III.png in Resources */,
+				DCFEF04315D1CEB8003CF796 /* Tim Tebow.png in Resources */,
+				DCFEF04415D1CEB8003CF796 /* Tom Brady.png in Resources */,
+				DCFEF04515D1CEB8003CF796 /* Tony Romo.png in Resources */,
+				DCFEF04615D1CEB8003CF796 /* Troy Polamalu.png in Resources */,
+				DCFEF04715D1CEB8003CF796 /* Victor Cruz.png in Resources */,
+				DCFEF04815D1CEB8003CF796 /* Andrew Bynum.png in Resources */,
+				DCFEF04915D1CEB8003CF796 /* Anthony Davis.png in Resources */,
+				DCFEF04A15D1CEB8003CF796 /* Baron Davis.png in Resources */,
+				DCFEF04B15D1CEB8003CF796 /* Brandon Jennings.png in Resources */,
+				DCFEF04C15D1CEB8003CF796 /* Carlos Boozer.png in Resources */,
+				DCFEF04D15D1CEB8003CF796 /* Danny Granger.png in Resources */,
+				DCFEF04E15D1CEB8003CF796 /* DeMarcus Cousins.png in Resources */,
+				DCFEF04F15D1CEB8003CF796 /* J. J. Redick.png in Resources */,
+				DCFEF05015D1CEB8003CF796 /* Jason Kidd.png in Resources */,
+				DCFEF05115D1CEB8003CF796 /* Jeremy Lin.png in Resources */,
+				DCFEF05215D1CEB8003CF796 /* Joakim Noah.png in Resources */,
+				DCFEF05315D1CEB8003CF796 /* Joe Johnson.png in Resources */,
+				DCFEF05415D1CEB8003CF796 /* Kemba Walker.png in Resources */,
+				DCFEF05515D1CEB8003CF796 /* Kirk Hinrich.png in Resources */,
+				DCFEF05615D1CEB8003CF796 /* Kris Humphries.png in Resources */,
+				DCFEF05715D1CEB8003CF796 /* Luol Deng.png in Resources */,
+				DCFEF05815D1CEB8003CF796 /* Manu Ginobili.png in Resources */,
+				DCFEF05915D1CEB8003CF796 /* Marc Gasol.png in Resources */,
+				DCFEF05A15D1CEB8003CF796 /* Metta World Peace.png in Resources */,
+				DCFEF05B15D1CEB8003CF796 /* Monta Ellis.png in Resources */,
+				DCFEF05C15D1CEB8003CF796 /* Ray Allen.png in Resources */,
+				DCFEF05D15D1CEB8003CF796 /* Ricky Rubio.png in Resources */,
+				DCFEF05E15D1CEB8003CF796 /* Roy Hibbert.png in Resources */,
+				DCFEF05F15D1CEB8003CF796 /* Serge Ibaka.png in Resources */,
+				DCFEF06015D1CEB8003CF796 /* Shawn Marion.png in Resources */,
+				DCFEF06215D1CEB8003CF796 /* Tayshaun Prince.png in Resources */,
+				DCFEF06315D1CEB8003CF796 /* Tracy McGrady.png in Resources */,
+				DCFEF06415D1CEB8003CF796 /* Tyson Chandler.png in Resources */,
+				DCFEF06515D1CEB8003CF796 /* Vince Carter.png in Resources */,
+				DCFEF06615D1CEB8003CF796 /* A. J. Green.png in Resources */,
+				DCFEF06715D1CEB8003CF796 /* Ben Roethlisberger.png in Resources */,
+				DCFEF06815D1CEB8003CF796 /* Brandon Marshall.png in Resources */,
+				DCFEF06915D1CEB8003CF796 /* Carl Nicks.png in Resources */,
+				DCFEF06A15D1CEB8003CF796 /* Champ Bailey.png in Resources */,
+				DCFEF06B15D1CEB8003CF796 /* Charles Woodson.png in Resources */,
+				DCFEF06C15D1CEB8003CF796 /* D'Brickashaw Ferguson.png in Resources */,
+				DCFEF06D15D1CEB8003CF796 /* Darrelle Revis.png in Resources */,
+				DCFEF06E15D1CEB8003CF796 /* Dez Bryant.png in Resources */,
+				DCFEF06F15D1CEB8003CF796 /* Dwight Freeney.png in Resources */,
+				DCFEF07015D1CEB8003CF796 /* Frank Gore.png in Resources */,
+				DCFEF07115D1CEB8003CF796 /* Greg Jennings.png in Resources */,
+				DCFEF07215D1CEB8003CF796 /* James Harrison.png in Resources */,
+				DCFEF07315D1CEB8003CF796 /* Jason Peters.png in Resources */,
+				DCFEF07415D1CEB8003CF796 /* Jason Pierre-Paul.png in Resources */,
+				DCFEF07515D1CEB8003CF796 /* Jimmy Graham.png in Resources */,
+				DCFEF07615D1CEB8003CF796 /* LeSean McCoy.png in Resources */,
+				DCFEF07715D1CEB8003CF796 /* Marshal Yanda.png in Resources */,
+				DCFEF07815D1CEB8003CF796 /* Marshawn Lynch.png in Resources */,
+				DCFEF07915D1CEB8003CF796 /* Matt Forte.png in Resources */,
+				DCFEF07A15D1CEB8003CF796 /* Mike Wallace.png in Resources */,
+				DCFEF07B15D1CEB8003CF796 /* Philip Rivers.png in Resources */,
+				DCFEF07C15D1CEB8003CF796 /* Ray Rice.png in Resources */,
+				DCFEF07D15D1CEB8003CF796 /* Roddy White.png in Resources */,
+				DCFEF07E15D1CEB8003CF796 /* Ryan Kalil.png in Resources */,
+				DCFEF07F15D1CEB8003CF796 /* Ryan Matthews.png in Resources */,
+				DCFEF08015D1CEB8003CF796 /* Steve Smith.png in Resources */,
+				DCFEF08115D1CEB8003CF796 /* Terrell Suggs.png in Resources */,
+				DCFEF08215D1CEB8003CF796 /* Von Miller.png in Resources */,
+				DCFEF08315D1CEB8003CF796 /* Wes Welker.png in Resources */,
+				DCBDBD4915D59BA700273515 /* greencheck.png in Resources */,
+				DCBDBD4A15D59BA700273515 /* redcross.png in Resources */,
+				DCBDBD4D15D59BB600273515 /* greencheck@2x.png in Resources */,
+				DCBDBD4E15D59BB600273515 /* redcross@2x.png in Resources */,
+				DCBDBD5315D59C1800273515 /* popupCloseBtn.png in Resources */,
+				DCBDBD5415D59C1800273515 /* popupCloseBtn@2x.png in Resources */,
+				DCBDBD5515D59C1800273515 /* popupWindowBack.png in Resources */,
+				DCBDBD5615D59C1800273515 /* popupWindowBack@2x.png in Resources */,
+				DCBDBD6215D59E1F00273515 /* yellowcircle.png in Resources */,
+				DCBDBD6315D59E1F00273515 /* yellowcircle@2x.png in Resources */,
+				DCB3A69415D7542D00E440F9 /* correct.wav in Resources */,
+				DC00278715DA0C8700591BB1 /* Steve Nash.png in Resources */,
+				DC00278915DA0CA100591BB1 /* Andre Iguodala.png in Resources */,
+				DC3EEE0715DB2173002AD326 /* topbar.png in Resources */,
+				DC3EEE0815DB2173002AD326 /* topbar@2x.png in Resources */,
+				DC3EEE1015DB3328002AD326 /* sportsbg.png in Resources */,
+				DC3EEE1115DB3328002AD326 /* sportsbg@2x.png in Resources */,
+				DC3EEE1F15DB4C3E002AD326 /* 1NBA@2x.png in Resources */,
+				DC3EEE2015DB4C3E002AD326 /* 1NFL@2x.png in Resources */,
+				DC3EEE2115DB4C3E002AD326 /* 2NBA@2x.png in Resources */,
+				DC3EEE2215DB4C3E002AD326 /* 2NFL@2x.png in Resources */,
+				DC38967715DB6043002E7EA6 /* blank.png in Resources */,
+				DC38967915DB60B9002E7EA6 /* blank@2x.png in Resources */,
+				DC05B11815DB74F400CB8D86 /* mainImage@2x.png in Resources */,
+				DC05B11B15DB7E0100CB8D86 /* percentBackground@2x.png in Resources */,
+				DC05B11D15DB7E3200CB8D86 /* percentBackground.png in Resources */,
+				DC05B12615DB941700CB8D86 /* hintsBackground.png in Resources */,
+				DC05B12715DB941700CB8D86 /* hintsBackground@2x.png in Resources */,
+				DC05B12815DB941700CB8D86 /* pointsBackground.png in Resources */,
+				DC05B12915DB941700CB8D86 /* pointsBackground@2x.png in Resources */,
+				DC05B12D15DB995C00CB8D86 /* topbarName.png in Resources */,
+				DC05B12E15DB995C00CB8D86 /* topbarName@2x.png in Resources */,
+				DC57B92015DBF7430051D778 /* home.png in Resources */,
+				DC57B92115DBF7430051D778 /* home@2x.png in Resources */,
+				DC57B92215DBF7430051D778 /* levels.png in Resources */,
+				DC57B92315DBF7430051D778 /* levels@2x.png in Resources */,
+				DC57B92915DBFED10051D778 /* other.png in Resources */,
+				DC57B92A15DBFED10051D778 /* other@2x.png in Resources */,
+				DC57B92B15DBFED10051D778 /* play.png in Resources */,
+				DC57B92C15DBFED10051D778 /* play@2x.png in Resources */,
+				DC57B93115DC015D0051D778 /* checkguess.png in Resources */,
+				DC57B93215DC015D0051D778 /* checkguess@2x.png in Resources */,
+				DC57B93315DC015D0051D778 /* showhint.png in Resources */,
+				DC57B93415DC015D0051D778 /* showhint@2x.png in Resources */,
+				DC57B93D15DC05390051D778 /* guess.png in Resources */,
+				DC57B93E15DC05390051D778 /* guess@2x.png in Resources */,
+				DC57B93F15DC05390051D778 /* hints.png in Resources */,
+				DC57B94015DC05390051D778 /* hints@2x.png in Resources */,
+				DC319D7415DC8E8800E4FD65 /* popupWindowBackSmall.png in Resources */,
+				DC319D7615DC8E8800E4FD65 /* popupWindowBackSmall@2x.png in Resources */,
+				DC319D7B15DC966F00E4FD65 /* backtogame.png in Resources */,
+				DC319D7D15DC966F00E4FD65 /* backtogame@2x.png in Resources */,
+				DCC1A20015DD63DF00F745CA /* percentBackground120.png in Resources */,
+				DCC1A20115DD63DF00F745CA /* percentBackground120@2x.png in Resources */,
+				DCC1A20915DD7D2600F745CA /* reset.png in Resources */,
+				DCC1A20A15DD7D2600F745CA /* reset@2x.png in Resources */,
+				DCC1A20B15DD7D2600F745CA /* soundOff.png in Resources */,
+				DCC1A20C15DD7D2600F745CA /* soundOff@2x.png in Resources */,
+				DCC1A20D15DD7D2600F745CA /* soundOn.png in Resources */,
+				DCC1A20E15DD7D2600F745CA /* soundOn@2x.png in Resources */,
+				DCF5B9F815DF3186008CABDA /* lock.png in Resources */,
+				DCF5B9FA15DF3186008CABDA /* lock@2x.png in Resources */,
+				DC6066FF15E1CA0300BB20C1 /* info.png in Resources */,
+				DC60670115E1CA0300BB20C1 /* info@2x.png in Resources */,
+				DC60670A15E1CE2D00BB20C1 /* back.png in Resources */,
+				DC60670C15E1CE2D00BB20C1 /* back@2x.png in Resources */,
+				DC60671015E1D09600BB20C1 /* buyhints.png in Resources */,
+				DC60671215E1D09600BB20C1 /* buyhints@2x.png in Resources */,
+				DC60671D15E1DA8E00BB20C1 /* sportsbgfire@2x.png in Resources */,
+				DC60672115E1DB2900BB20C1 /* Default@2x.png in Resources */,
+				DC60672515E1DB5C00BB20C1 /* Default.png in Resources */,
+				DC4F4A741600019700452273 /* Soon@2x.png in Resources */,
+				DC4F4A7B160017BE00452273 /* 57_57.png in Resources */,
+				DC4F4A7E160017C100452273 /* 114_114.png in Resources */,
+				DC4F4A811600283D00452273 /* question.png in Resources */,
+				DC4F4A821600283D00452273 /* question@2x.png in Resources */,
+				DC4F4A96160036AE00452273 /* popupTips@2x.png in Resources */,
+				DC84BC90160805700055B21C /* newHint.png in Resources */,
+				DC84BC91160805700055B21C /* newHint@2x.png in Resources */,
+				DC84BC9916081A3B0055B21C /* checkmark.png in Resources */,
+				DC84BC9A16081A3B0055B21C /* checkmark@2x.png in Resources */,
+				DC319147160C411C001C8333 /* 3NFL@2x.png in Resources */,
+				DC319148160C411C001C8333 /* 4NFL@2x.png in Resources */,
+				DC319188160C412A001C8333 /* Aaron Hernandez.png in Resources */,
+				DC319189160C412A001C8333 /* Antonio Gates.png in Resources */,
+				DC31918A160C412A001C8333 /* Brian Cushing.png in Resources */,
+				DC31918B160C412A001C8333 /* Chris Johnson.png in Resources */,
+				DC31918C160C412A001C8333 /* Darren Sproles.png in Resources */,
+				DC31918D160C412A001C8333 /* DeMarco Murray.png in Resources */,
+				DC31918E160C412A001C8333 /* Dwayne Bowe.png in Resources */,
+				DC31918F160C412A001C8333 /* Ed Reed.png in Resources */,
+				DC319190160C412A001C8333 /* Hakeem Nicks.png in Resources */,
+				DC319191160C412A001C8333 /* Jamaal Charles.png in Resources */,
+				DC319192160C412A001C8333 /* Jared Allen.png in Resources */,
+				DC319193160C412A001C8333 /* Jay Cutler.png in Resources */,
+				DC319194160C412A001C8333 /* Joe Flacco.png in Resources */,
+				DC319195160C412A001C8333 /* Jordy Nelson.png in Resources */,
+				DC319196160C412A001C8333 /* Julio Jones.png in Resources */,
+				DC319197160C412A001C8333 /* Justin Tuck.png in Resources */,
+				DC319198160C412A001C8333 /* London Fletcher.png in Resources */,
+				DC319199160C412A001C8333 /* Mark Sanchez.png in Resources */,
+				DC31919A160C412A001C8333 /* Matt Ryan.png in Resources */,
+				DC31919B160C412A001C8333 /* Matt Schaub.png in Resources */,
+				DC31919C160C412A001C8333 /* Matthew Stafford.png in Resources */,
+				DC31919D160C412A001C8333 /* Nnamdi Asomugha.png in Resources */,
+				DC31919E160C412A001C8333 /* Peyton Hillis.png in Resources */,
+				DC31919F160C412A001C8333 /* Randy Moss.png in Resources */,
+				DC3191A0160C412A001C8333 /* Reggie Bush.png in Resources */,
+				DC3191A1160C412A001C8333 /* Reggie Wayne.png in Resources */,
+				DC3191A2160C412A001C8333 /* Steve Johnson.png in Resources */,
+				DC3191A3160C412A001C8333 /* Steven Jackson.png in Resources */,
+				DC3191A4160C412A001C8333 /* Trent Richardson.png in Resources */,
+				DC3191A5160C412A001C8333 /* Vincent Jackson.png in Resources */,
+				DC3191A6160C412A001C8333 /* Alex Smith.png in Resources */,
+				DC3191A7160C412A001C8333 /* Andy Dalton.png in Resources */,
+				DC3191A8160C412A001C8333 /* Anquan Boldin.png in Resources */,
+				DC3191A9160C412A001C8333 /* Antonio Brown.png in Resources */,
+				DC3191AA160C412A001C8333 /* Bernard Pollard.png in Resources */,
+				DC3191AB160C412A001C8333 /* Brandon Lloyd.png in Resources */,
+				DC3191AC160C412A001C8333 /* Brandon Weeden.png in Resources */,
+				DC3191AD160C412A001C8333 /* Brian Orakpo.png in Resources */,
+				DC3191AE160C412A001C8333 /* Cameron Wake.png in Resources */,
+				DC3191AF160C412A001C8333 /* Carson Palmer.png in Resources */,
+				DC3191B0160C412A001C8333 /* Earl Thomas.png in Resources */,
+				DC3191B1160C412A001C8333 /* Eric Berry.png in Resources */,
+				DC3191B2160C412A001C8333 /* Eric Decker.png in Resources */,
+				DC3191B3160C412A001C8333 /* Fred Jackson.png in Resources */,
+				DC3191B4160C412A001C8333 /* Haloti Ngata.png in Resources */,
+				DC3191B5160C412A001C8333 /* Ike Taylor.png in Resources */,
+				DC3191B6160C412A001C8333 /* J. J. Watt.png in Resources */,
+				DC3191B7160C412A001C8333 /* Jason Witten.png in Resources */,
+				DC3191B8160C412A001C8333 /* Jeremy Maclin.png in Resources */,
+				DC3191B9160C412A001C8333 /* Johnathan Joseph.png in Resources */,
+				DC3191BA160C412A001C8333 /* Mark Barron.png in Resources */,
+				DC3191BB160C412A001C8333 /* Marques Colston.png in Resources */,
+				DC3191BC160C412A001C8333 /* Michael Turner.png in Resources */,
+				DC3191BD160C412A001C8333 /* Percy Harvin.png in Resources */,
+				DC3191BE160C412A001C8333 /* Ryan Fitzpatrick.png in Resources */,
+				DC3191BF160C412A001C8333 /* Ryan Tannehill.png in Resources */,
+				DC3191C0160C412A001C8333 /* Sam Bradford.png in Resources */,
+				DC3191C1160C412A001C8333 /* Santonio Holmes.png in Resources */,
+				DC3191C2160C412A001C8333 /* Vernon Davis.png in Resources */,
+				DC3191C3160C412A001C8333 /* Vince Wilfork.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC53FFE215BA2EE0007B5EC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC53FFF115BA2EE0007B5EC9 /* InfoPlist.strings in Resources */,
+				DC319D7515DC8E8800E4FD65 /* popupWindowBackSmall.png in Resources */,
+				DC319D7715DC8E8800E4FD65 /* popupWindowBackSmall@2x.png in Resources */,
+				DC319D7C15DC966F00E4FD65 /* backtogame.png in Resources */,
+				DC319D7E15DC966F00E4FD65 /* backtogame@2x.png in Resources */,
+				DCF5B9F915DF3186008CABDA /* lock.png in Resources */,
+				DCF5B9FB15DF3186008CABDA /* lock@2x.png in Resources */,
+				DC60670015E1CA0300BB20C1 /* info.png in Resources */,
+				DC60670215E1CA0300BB20C1 /* info@2x.png in Resources */,
+				DC60670B15E1CE2D00BB20C1 /* back.png in Resources */,
+				DC60670D15E1CE2D00BB20C1 /* back@2x.png in Resources */,
+				DC60671115E1D09600BB20C1 /* buyhints.png in Resources */,
+				DC60671315E1D09600BB20C1 /* buyhints@2x.png in Resources */,
+				DC60671E15E1DA8E00BB20C1 /* sportsbgfire@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DC53FFE315BA2EE0007B5EC9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC53FFC015BA2EE0007B5EC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCBDBD5E15D59D0F00273515 /* MTPopupWindow.m in Sources */,
+				DC53FFD515BA2EE0007B5EC9 /* main.m in Sources */,
+				DC53FFD915BA2EE0007B5EC9 /* AppDelegate.m in Sources */,
+				DC53FFDF15BA2EE0007B5EC9 /* ViewController.m in Sources */,
+				DC53FFFF15BA313A007B5EC9 /* Jersey.m in Sources */,
+				DC53000215BA317C007B5EC9 /* Level.m in Sources */,
+				DC85809D15C735010034B44F /* LevelViewController.m in Sources */,
+				DC2EAFD815D37C8500B293ED /* MenuViewController.m in Sources */,
+				DC00279215DA304200591BB1 /* Player.m in Sources */,
+				DC319D7215DC8E8800E4FD65 /* MTMiniPopupWindow.m in Sources */,
+				DC06D33D15DE14C5003AE31A /* ScrollingAppDelegate.m in Sources */,
+				DC4F4A8816002DC100452273 /* MTBlankPopupWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC53FFE015BA2EE0007B5EC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC1A1E815DD40B400F745CA /* AppDelegate.m in Sources */,
+				DCC1A1E915DD40B400F745CA /* Jersey.m in Sources */,
+				DCC1A1EA15DD40B400F745CA /* Level.m in Sources */,
+				DCC1A1EB15DD40B400F745CA /* Player.m in Sources */,
+				DCC1A1EC15DD40B400F745CA /* ViewController.m in Sources */,
+				DCC1A1ED15DD40B400F745CA /* MenuViewController.m in Sources */,
+				DCC1A1EE15DD40B400F745CA /* LevelViewController.m in Sources */,
+				DC53FFF415BA2EE0007B5EC9 /* JerseyGeniusTests.m in Sources */,
+				DCBDBD5915D59C3000273515 /* MTPopupWindow.m in Sources */,
+				DC319D7315DC8E8800E4FD65 /* MTMiniPopupWindow.m in Sources */,
+				DC06D33E15DE14C5003AE31A /* ScrollingAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC53FFEB15BA2EE0007B5EC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC53FFC315BA2EE0007B5EC9 /* JerseyGenius */;
+			targetProxy = DC53FFEA15BA2EE0007B5EC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC53FFD115BA2EE0007B5EC9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC53FFD215BA2EE0007B5EC9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC53FFDA15BA2EE0007B5EC9 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC53FFDB15BA2EE0007B5EC9 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		DC53FFEF15BA2EE0007B5EC9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC53FFF015BA2EE0007B5EC9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC53FFF515BA2EE0007B5EC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC53FFF615BA2EE0007B5EC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC53FFF815BA2EE0007B5EC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Baojie Zhang";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JerseyGenius/JerseyGenius-Prefix.pch";
+				INFOPLIST_FILE = "JerseyGenius/JerseyGenius-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "859B87FB-5480-473D-99BC-2F35E9087CC8";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC53FFF915BA2EE0007B5EC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Baojie Zhang";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JerseyGenius/JerseyGenius-Prefix.pch";
+				INFOPLIST_FILE = "JerseyGenius/JerseyGenius-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "859B87FB-5480-473D-99BC-2F35E9087CC8";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DC53FFFB15BA2EE0007B5EC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JerseyGenius.app/JerseyGenius";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JerseyGenius/JerseyGenius-Prefix.pch";
+				INFOPLIST_FILE = "JerseyGeniusTests/JerseyGeniusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DC53FFFC15BA2EE0007B5EC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JerseyGenius.app/JerseyGenius";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JerseyGenius/JerseyGenius-Prefix.pch";
+				INFOPLIST_FILE = "JerseyGeniusTests/JerseyGeniusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC53FFBE15BA2EE0007B5EC9 /* Build configuration list for PBXProject "JerseyGenius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC53FFF515BA2EE0007B5EC9 /* Debug */,
+				DC53FFF615BA2EE0007B5EC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC53FFF715BA2EE0007B5EC9 /* Build configuration list for PBXNativeTarget "JerseyGenius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC53FFF815BA2EE0007B5EC9 /* Debug */,
+				DC53FFF915BA2EE0007B5EC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC53FFFA15BA2EE0007B5EC9 /* Build configuration list for PBXNativeTarget "JerseyGeniusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC53FFFB15BA2EE0007B5EC9 /* Debug */,
+				DC53FFFC15BA2EE0007B5EC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC53FFBB15BA2EE0007B5EC9 /* Project object */;
+}
